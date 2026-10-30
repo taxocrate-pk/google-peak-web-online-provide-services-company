@@ -1,3 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-module.exports = nextConfig;
+module.exports = {
+  trailingSlash: true,
+  images: { unoptimized: true },
+  async redirects() {
+    return [
+      { source: '/services/:path*', destination: '/digital-marketing-services/', permanent: true },
+    ];
+  },
+};
