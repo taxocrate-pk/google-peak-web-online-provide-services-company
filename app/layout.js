@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import { site } from '@/data/site';
 export const metadata = {
   metadataBase: new URL(site.url),
-  title: { default: 'Digital Marketing Agency & SEO Company | Google Peak', template: '%s' },
-  description: 'Google Peak is a digital marketing agency offering SEO services, Google Ads, social media marketing, web development and content writing.',
+  title: { default: 'Website Design and Development | Google Peak', template: '%s' },
+  description: 'Google Peak designs and builds fast, SEO-ready websites made to reach Google’s top 3.',
   icons: { icon: [{ url: '/favicon.ico', sizes: '48x48' }, { url: '/favicon.svg', type: 'image/svg+xml' }], apple: '/apple-touch-icon.png' },
 };
 const org = {

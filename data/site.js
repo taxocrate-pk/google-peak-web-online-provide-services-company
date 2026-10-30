@@ -1,7 +1,7 @@
 export const site = {
   name: 'Google Peak',
   url: 'https://googlepeak.com',
-  tagline: 'Digital Marketing Agency and SEO Company',
+  tagline: 'Website Design and Development — Built for Google’s Top 3',
   email: 'info@googlepeak.com',
   phone: '+92 333 1127834',
   phoneHref: 'tel:+923331127834',
@@ -14,11 +14,11 @@ export const site = {
 };
 
 export const nav = [
-  { label: 'SEO Services', href: '/search-engine-optimization/' },
-  { label: 'Digital Marketing', href: '/digital-marketing-services/' },
+  { label: 'SEO-Ready Websites', href: '/search-engine-optimization/' },
+  { label: 'Landing Pages', href: '/digital-marketing-services/' },
   { label: 'Web Development', href: '/web-development/' },
   { label: 'E-commerce', href: '/e-commerce/' },
-  { label: 'Content Writing', href: '/content-writing/' },
+  { label: 'Website Content', href: '/content-writing/' },
   { label: 'About', href: '/about-us/' },
   { label: 'Contact', href: '/contact-us/' },
 ];

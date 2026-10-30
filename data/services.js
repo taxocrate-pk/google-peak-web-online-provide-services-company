@@ -15,204 +15,181 @@ const intl = (svc) => `<h2>${svc} for the UK, USA, Canada, UAE and Australia —
 <p>We have one office, in Karachi; all international work is handled online by email (info@googlepeak.com), video call and WhatsApp. Send us your website and a competitor you want to beat, and we will show you what we would do and what it would cost.</p>`;
 
 /* ------------------------------------------------------------------ HOME */
-const dm = 'digital marketing agency';
 const home = {
   slug: '',
   type: 'service',
-  keyword: 'Digital Marketing Agency',
-  title: 'Digital Marketing Agency | SEO Company | Google Peak',
-  description: 'Google Peak is a digital marketing agency for SEO services, Google Ads, social media, website development and content writing that brings enquiries.',
-  eyebrow: 'Google Peak · UK, USA, Canada, UAE & Australia — at About Half the Price',
-  h1: 'Digital Marketing Agency for SEO, Google Ads and Websites That Bring Enquiries',
-  intro: 'Digital marketing agency work should end in phone calls, WhatsApp messages and sales — not in reports full of impressions. Google Peak plans SEO, Google Ads, websites and content for clients in the UK, USA, Canada, the UAE and Australia at about half the price of a local agency.',
+  keyword: 'Website Design and Development',
+  title: 'Website Design and Development Company | Built for Google Top 3 | Google Peak',
+  description: 'Google Peak is a website design and development company that builds fast, SEO-ready websites designed to reach the peak of Google — the top 3 results.',
+  eyebrow: 'Google Peak · Websites Built to Reach Google’s Top 3',
+  h1: 'Website Design and Development Company — Websites Built to Reach the Peak of Google',
+  intro: 'Website design and development at Google Peak starts with one question: can this website reach Google’s top 3 for the searches that bring you customers? We design and build fast, SEO-ready websites in Next.js and WordPress for clients in the UK, USA, Canada, the UAE, Australia and Pakistan — at about half the price of a local agency.',
   body: `
-<h2>Why Choose a Digital Marketing Agency That Starts With Search</h2>
-<p>A digital marketing agency has to work with how buyers actually behave, whether they are in London, Dubai, Toronto or Karachi. Most of them start on Google, compare two or three businesses, read reviews and then call, email or message on WhatsApp. Google Peak builds every campaign around that path: get found on the search, look trustworthy on the page, and make it one tap to contact you.</p>
-<p>We began as an SEO company in Karachi and still treat search as the foundation; today we are a full digital marketing company covering SEO, ads, website design and content. Paid ads, social media and content all work better when the website already ranks for the terms people type.</p>
+<h2>Why Website Design and Development Decides Whether You Reach Google’s Top 3</h2>
+<p>Website design and development is where most rankings are won or lost. A slow page builder, one page trying to rank for ten services, missing headings, or a mobile layout that breaks will hold a site back no matter how much SEO is done later. Google Peak builds the foundation right the first time, so the site can climb to the peak of Google instead of fighting its own code.</p>
+<p>We run a network of our own websites in law, tax and marriage services, many of them in Google’s top 3 for competitive searches. Every build method we sell has been tested there first.</p>
 
-<h2>Services From Our Digital Marketing Agency</h2>
+<h2>What Our Website Design and Development Includes</h2>
 ${cards([
-  ['SEO Services', 'Keyword research, on-page SEO, technical fixes, local SEO and link building.', '/search-engine-optimization/'],
-  ['Digital Marketing Services', 'Google Ads, Meta ads, social media management and campaign tracking.', '/digital-marketing-services/'],
-  ['Website Development', 'Fast Next.js and WordPress websites built to rank and convert.', '/web-development/'],
-  ['E-commerce Websites', 'Online stores with product SEO, payment gateways and courier integration.', '/e-commerce/'],
-  ['Content Writing', 'Service pages, blogs and product copy written for search intent.', '/content-writing/'],
-  ['SEO Guides', 'Plain-English guides on SEO, backlinks and content for business owners.', '/what-is-seo-is-seo-important-how-does-seo-work-learn-seo/'],
+  ['Speed-First Build', 'Next.js or lean WordPress; WebP images; Lighthouse scores near 100.', '/web-development/'],
+  ['Ranking Architecture', 'One page per service and city, so each can rank for its own search.', '/search-engine-optimization/'],
+  ['Mobile-First Design', 'Designed for phones first, where most searches happen.', '/web-development/'],
+  ['E-commerce Stores', 'Shopify and WooCommerce stores with product pages built to rank.', '/e-commerce/'],
+  ['Launch Content', 'Page copy written around the keywords each page must win.', '/content-writing/'],
+  ['Safe Redesigns', 'Old URLs kept or redirected so existing rankings are not lost.', '/web-development/'],
 ])}
 
-<h2>SEO Services: The Core of Our Digital Marketing Company</h2>
-<p>SEO services are where our SEO company spends most of its time, and every campaign is led by an SEO expert with decades of experience. A page that ranks in the top three for a buying keyword produces enquiries every day without paying for every click. We research the exact phrases buyers use in Urdu-English search ("lawyer in Karachi", "company registration fee", "best tiles in Lahore"), write pages for those phrases, fix the technical problems that hold a site back, and build links from relevant Pakistani and international websites.</p>
-
-<h3>How a Digital Marketing Agency Should Measure Results</h3>
-<ul>
-<li>Rankings for the keywords that bring buyers, not vanity terms.</li>
-<li>Calls, WhatsApp clicks and form submissions tracked in Google Analytics 4.</li>
-<li>Cost per enquiry on Google Ads and Meta ads.</li>
-<li>Sales or bookings reported by your team each month.</li>
-</ul>
-
-<h2>Our Process as a Digital Marketing Agency</h2>
+<h2>How Google Peak Builds Websites That Can Reach the Top 3</h2>
 <table>
 <thead><tr><th>Step</th><th>What we do</th></tr></thead>
 <tbody>
-<tr><td>1. Audit</td><td>Website speed, indexing, rankings, competitors and current ads reviewed</td></tr>
-<tr><td>2. Keyword plan</td><td>Buying keywords grouped by page and city</td></tr>
-<tr><td>3. Build</td><td>Pages rewritten, technical fixes made, tracking installed</td></tr>
-<tr><td>4. Promote</td><td>Links, Google Business Profile, ads and social posts</td></tr>
-<tr><td>5. Report</td><td>Monthly report in plain language with next month's plan</td></tr>
+<tr><td>1. Keyword map</td><td>Every service and city matched to the search it should win</td></tr>
+<tr><td>2. Page plan</td><td>One page per keyword; no two pages competing</td></tr>
+<tr><td>3. Design</td><td>Mobile-first layout with call and WhatsApp buttons on every page</td></tr>
+<tr><td>4. Build</td><td>Next.js or WordPress, schema, sitemap, fast hosting</td></tr>
+<tr><td>5. Launch</td><td>Redirects from old URLs, Search Console submission, indexing checks</td></tr>
 </tbody>
 </table>
 
-<h2>A Digital Marketing Company and SEO Company Serving Clients Worldwide</h2>
-<p>Our digital marketing agency has worked with law firms, tax consultants, clinics, real estate agents, schools, manufacturers, e-commerce stores and service companies in the UK, the United States, Canada, the UAE, Australia and Pakistan. Working from Karachi lets us offer senior SEO expertise at a cost well below most Western agencies. Professional services are a speciality: we run and rank a large network of legal and tax websites ourselves, so we know what it takes to win competitive local searches.</p>
+<h3>Website Design and Development Is Not the Same as Ongoing SEO</h3>
+<p>We build the site so it is ready to rank. Monthly link building and content campaigns after launch are a separate service; we can introduce you to our sister teams for that, or hand the site over to your own SEO provider with a clean foundation.</p>
 
-<h2>Pricing at Our Digital Marketing Agency</h2>
+<h2>Website Design and Development Packages</h2>
 ${priceTable([
-  ['Local SEO', 'Google Business Profile, local pages, citations and reviews'],
-  ['SEO campaign', 'Keyword plan, on-page and technical SEO, monthly links'],
-  ['Google Ads management', 'Campaign setup, keyword bids, conversion tracking'],
-  ['Website + SEO', 'New fast website with SEO-ready pages'],
+  ['Business website', 'Up to 10 pages, Next.js or WordPress, SEO-ready structure'],
+  ['Multi-city or multi-service website', 'Service and city pages, schema, launch content'],
+  ['Redesign or migration', 'New build with existing URLs and rankings protected'],
+  ['E-commerce store', 'Shopify or WooCommerce with product SEO'],
 ])}
+
+<h2>Who Uses Our Website Design and Development</h2>
+<p>Law firms, tax consultants, clinics, schools, real estate agents, manufacturers and online stores in London, New York, Toronto, Dubai, Sydney, Karachi, Lahore and Islamabad. Our team works from Karachi, Pakistan, which is why we can offer senior-level website design and development at roughly half the cost of a Western agency.</p>
 `,
-  after: `${intl('Digital Marketing')}<h2>Talk to a Digital Marketing Agency That Answers on WhatsApp</h2><p>Send your website and the service you want more customers for. We reply with a short audit and a plan you can act on, whether or not you hire us.</p>`,
+  after: `${intl('Website Design and Development')}`,
   faq: [
-    ['What does a digital marketing agency do?', 'It brings customers online through SEO, Google Ads, social media, websites and content, and tracks which of these produce enquiries.'],
-    ['How long does SEO take?', 'Local and low-competition keywords often move in 2–3 months; competitive national keywords usually take 4–6 months or more.'],
-    ['Do you work with international clients?', 'Yes. Most of our work is online, with clients in the UK, US, Canada, the UAE, Australia and Pakistan.'],
-    ['Do you guarantee first position on Google?', 'No honest agency can. We commit to the work, the reporting and a clear plan, and we show progress every month.'],
-    ['How much does a digital marketing agency cost?', 'It depends on competition and scope. We quote after a free audit of your website and market.'],
-    ['How do I start?', 'Message us on WhatsApp at +92 333 1127834 with your website link.'],
+    ['Why is your company called Google Peak?', 'Because our websites are built to reach the peak of Google — the top 3 results for the searches that matter to you.'],
+    ['Do you guarantee a top 3 ranking?', 'No honest company can. We guarantee a website with the speed, structure and content Google rewards, and we show you the before-and-after.'],
+    ['Next.js or WordPress?', 'Next.js for speed and security; WordPress when your team needs to edit often. We advise based on how you will use the site.'],
+    ['Can you redesign my site without losing rankings?', 'Yes. We keep or 301-redirect every indexed URL and resubmit the sitemap.'],
+    ['Do you work with clients outside Pakistan?', 'Yes — the UK, USA, Canada, the UAE and Australia, online.'],
+    ['How do I get a quote?', 'Email info@googlepeak.com or WhatsApp +92 333 1127834 with your current site or requirements.'],
   ],
-  related: [['/search-engine-optimization/', 'SEO Services'], ['/digital-marketing-services/', 'Digital Marketing Services'], ['/web-development/', 'Website Development']],
+  related: [['/web-development/', 'Website Development'], ['/e-commerce/', 'E-commerce Website Development'], ['/search-engine-optimization/', 'SEO-Ready Website Development']],
   images: [
-    v('digital-marketing-agency-in-pakistan-google-peak-services-chart', 'Digital marketing agency services by Google Peak, Karachi: SEO, Google Ads, social media, website development, e-commerce and content writing', 'Digital Marketing Agency: Google Peak Services', 'Six services from Google Peak, a digital marketing agency based in Karachi. Illustrative summary.', 'Google Peak summary chart of digital marketing agency services in Pakistan: SEO services, Google Ads, social media marketing, website development, e-commerce websites and content writing for businesses in Karachi, Lahore and Islamabad.'),
-    v('digital-marketing-agency-in-pakistan-customer-journey-chart', 'Digital marketing agency customer journey: Google search, compare businesses, Google Maps reviews, website visit and WhatsApp enquiry', 'How Pakistani Customers Find a Business Online', 'The search-to-WhatsApp journey a digital marketing agency should plan for. Illustrative summary.', 'Google Peak chart of the Pakistani customer journey that a digital marketing agency plans around: Google search, comparing businesses, reading Google Maps reviews, visiting the website and sending a WhatsApp enquiry.'),
+    v('website-design-and-development-company-google-peak-chart', 'Website design and development company Google Peak: speed-first build, ranking architecture, mobile-first design, e-commerce stores, launch content and safe redesigns', 'Website Design and Development Built for Google’s Top 3', 'Six parts of Google Peak website design and development, Karachi, Pakistan. Illustrative summary.', 'Google Peak chart of website design and development built to reach Google’s top 3: speed-first Next.js and WordPress builds, ranking architecture with one page per keyword, mobile-first design, e-commerce stores, launch content and safe redesigns that protect rankings.'),
+    v('website-design-and-development-top-3-process-chart', 'Website design and development process to reach Google top 3: keyword map, page plan, mobile-first design, build with schema, launch with redirects and Search Console', 'Five Steps to a Website That Can Reach the Top 3', 'How Google Peak plans and builds websites to rank. Illustrative process.', 'Google Peak process chart for website design and development: keyword map, one page per keyword, mobile-first design, Next.js or WordPress build with schema and sitemap, launch with 301 redirects and Search Console submission.'),
   ],
 };
 
-/* ------------------------------------------------------------------ SEO */
-const seo = 'SEO services';
+/* ------------------------------------------------------------------ SEO-READY WEBSITES (URL kept) */
 const seoPage = {
   slug: 'search-engine-optimization',
   type: 'service',
-  keyword: 'SEO Services',
-  title: 'SEO Services | SEO Company & SEO Expert | Google Peak',
-  description: 'SEO services from Google Peak: keyword research, on-page and technical SEO, local SEO, Google Business Profile and link building that bring enquiries.',
-  eyebrow: 'Search Engine Optimization · Google Peak',
-  h1: 'SEO Services — An SEO Company That Ranks Pages for Buying Keywords',
-  intro: 'SEO services should put your pages in front of people who are ready to buy. Google Peak researches the phrases your customers type, fixes what stops Google from ranking your site, and builds the content and links that move you to the top.',
+  keyword: 'SEO-Ready Website',
+  title: 'SEO-Ready Website Development | Search Engine Optimization Built In | Google Peak',
+  description: 'An SEO-ready website from Google Peak: technical SEO, site structure, schema, speed and on-page SEO built into the design so pages can reach Google’s top 3.',
+  eyebrow: 'Search Engine Optimization Built Into the Build',
+  h1: 'SEO-Ready Website Development — Search Engine Optimization Built In From Day One',
+  intro: 'SEO-ready website development means building a site Google can crawl, understand and trust from the day it launches. Google Peak builds search engine optimization into the design and code — structure, speed, headings, schema and internal links — so your pages start with every technical advantage.',
   body: `
-<h2>What Our SEO Services Include</h2>
+<h2>What Makes an SEO-Ready Website</h2>
 ${cards([
-  ['Keyword Research', 'Buying keywords by service and city, with search volume and difficulty.'],
-  ['On-Page SEO', 'Titles, headings, content and internal links written for each keyword.'],
-  ['Technical SEO', 'Speed, mobile, indexing, schema and site structure fixed.'],
-  ['Local SEO', 'Google Business Profile, Maps rankings, citations and reviews.'],
-  ['Link Building', 'Relevant links from real websites in your country and industry.'],
-  ['Reporting', 'Monthly rankings, traffic and enquiries in plain language.'],
+  ['Site Structure', 'One page per service and city; clean URLs; no competing pages.'],
+  ['Technical SEO', 'Sitemap, canonicals, robots, redirects and indexing checks.'],
+  ['Speed', 'Core Web Vitals passed; WebP images; no heavy builders.'],
+  ['On-Page Templates', 'Title, H1, keyword headings, FAQs and review line on every page.'],
+  ['Schema', 'Organisation, Service, FAQ and Breadcrumb markup.'],
+  ['Internal Links', 'Every page linked from related pages; nothing orphaned.'],
 ])}
 
-<h2>Keyword Research for SEO Services</h2>
-<p>The same service is searched in many ways — "SEO agency", "SEO company near me", "best SEO services" — and the wording changes between the UK, the US and South Asia. We prioritise keywords that show buying intent — fees, near me, city names, "best" and "services" — over broad informational terms.</p>
+<h2>Why an SEO-Ready Website Ranks Faster</h2>
+<p>Most sites we audit lose rankings to problems introduced when they were built: duplicate pages created by themes, slow sliders, missing headings or one page targeting many keywords. An SEO-ready website removes those problems before launch, so content and links work harder afterwards.</p>
 
-<h2>On-Page and Technical SEO Services</h2>
-<p>Each target page gets a clear title, one H1, headings that repeat the key phrase naturally, a first paragraph that opens with it, enough useful content to answer the searcher, a price or process table, FAQs and a review and update line. On the technical side we fix slow pages, broken links, duplicate pages, missing canonicals and schema, and make sure Google can crawl and index everything that matters.</p>
+<h2>SEO-Ready Website Checklist We Deliver</h2>
+<table>
+<thead><tr><th>Area</th><th>What you get at launch</th></tr></thead>
+<tbody>
+<tr><td>Keywords</td><td>A keyword map with one target phrase per page</td></tr>
+<tr><td>Headings</td><td>Target phrase in the H1, opening line and several H2/H3s</td></tr>
+<tr><td>Speed</td><td>Lighthouse performance close to 100 on mobile</td></tr>
+<tr><td>Indexing</td><td>Sitemap submitted, pages inspected in Search Console</td></tr>
+<tr><td>Local</td><td>Google Business Profile details matched on the site</td></tr>
+</tbody>
+</table>
 
-<h3>Website Speed and Core Web Vitals: What an SEO Expert Checks First</h3>
-<p>Many business websites run heavy page builders and uncompressed images. Moving to lighter templates, WebP images and good hosting often lifts rankings on its own. Where it makes sense, we rebuild the site in Next.js so it scores close to 100 in Lighthouse.</p>
+<h3>Redesigning an Existing Site Into an SEO-Ready Website</h3>
+<p>If your current site already ranks for something, we protect it: every indexed URL is kept or redirected, and content that ranks is improved rather than replaced.</p>
 
-<h2>Local SEO Services for Any City — London, Dubai, Toronto or Karachi</h2>
-<p>Local SEO is the fastest win for most businesses. For businesses that serve a city, the Google Maps pack is the most valuable spot on the page. Our local SEO services cover Google Business Profile optimisation, city landing pages, consistent name-address-phone details across directories, and a steady flow of genuine reviews.</p>
-
-<h2>Link Building in Our SEO Services</h2>
-<p>Links are still one of Google's strongest signals. We earn them through guest articles on relevant sites, business directories, local news and industry associations, and by creating guides people want to cite. We do not buy spam links or private blog network links that put your site at risk.</p>
-
-<h2>SEO Services: Packages and Pricing</h2>
+<h2>SEO-Ready Website Packages</h2>
 ${priceTable([
-  ['Local SEO', 'Google Business Profile, local pages, citations, reviews'],
-  ['Standard SEO', 'Up to 10 keyword pages, technical fixes, monthly links'],
-  ['Competitive SEO', 'National keywords, content hub, outreach link building'],
-  ['SEO audit only', 'Full written audit with prioritised fix list'],
+  ['SEO-ready business website', 'New build with keyword map and technical SEO'],
+  ['SEO-ready rebuild', 'Existing site rebuilt with URLs protected'],
+  ['Technical SEO fix', 'Speed, indexing and structure fixes on your current site'],
 ])}
-
-<h2>Results You Can Expect From SEO Services and Our SEO Agency</h2>
-<p>Low-competition and local keywords usually begin to move within two to three months. National keywords in competitive fields such as law, real estate and e-commerce take longer — often four to six months. We report rankings, traffic and enquiries every month, so you can see whether the work is paying for itself.</p>
 `,
-  after: `${intl('SEO Services')}<h2>Get a Free Audit From Our SEO Services Team</h2><p>Send your website link on WhatsApp. We check speed, indexing and your top keywords, and tell you the three changes that will help most.</p>`,
+  after: `${intl('SEO-Ready Website Development')}`,
   faq: [
-    ['What are SEO services?', 'Work that improves how a website ranks on Google for the searches your customers make — keywords, content, technical fixes and links.'],
-    ['How much do SEO services cost?', 'It depends on competition and the number of pages. We quote after a free audit.'],
-    ['How long until I see results?', 'Local keywords often move in 2–3 months; competitive national keywords take 4–6 months or more.'],
-    ['Do you do local SEO for Google Maps?', 'Yes, including Google Business Profile optimisation, citations and reviews.'],
-    ['Will you build backlinks?', 'Yes, from relevant real websites. We avoid paid spam links that can cause penalties.'],
-    ['Can you work on WordPress sites?', 'Yes. We work on WordPress, Next.js, Shopify and most other platforms.'],
+    ['What is an SEO-ready website?', 'A website built so Google can crawl, understand and rank it from launch: structure, speed, headings, schema and internal links.'],
+    ['Do you provide monthly SEO campaigns?', 'Our focus is building the site right. Ongoing link building and content campaigns are a separate service.'],
+    ['Will an SEO-ready website rank on its own?', 'It gives every page the best start; competitive keywords still need content and links over time.'],
+    ['Can you fix my existing site instead?', 'Yes — a technical SEO fix covers speed, indexing and structure without a full rebuild.'],
   ],
-  related: [['/what-is-seo-is-seo-important-how-does-seo-work-learn-seo/', 'What is SEO?'], ['/what-is-backlinking-and-how-to-do-it/', 'How to Build Backlinks'], ['/content-writing/', 'Content Writing Services']],
+  related: [['/', 'Website Design and Development'], ['/web-development/', 'Website Development'], ['/what-is-seo-is-seo-important-how-does-seo-work-learn-seo/', 'What is SEO?']],
   images: [
-    v('seo-services-in-pakistan-what-is-included-chart', 'SEO services included by Google Peak: keyword research, on-page SEO, technical SEO, local SEO, link building and monthly reporting', 'SEO Services: What Is Included', 'The six parts of Google Peak SEO services. Illustrative summary.', 'Google Peak chart of SEO services for businesses in Karachi, Lahore and Islamabad: keyword research, on-page SEO, technical SEO and Core Web Vitals, local SEO and Google Business Profile, link building, and monthly reporting.'),
-    v('seo-services-in-pakistan-timeline-chart', 'SEO services timeline: audit in month one, local keywords moving in months two to three, competitive national keywords in months four to six', 'SEO Services: Realistic Timeline', 'When to expect movement from SEO services. Illustrative timeline.', 'Google Peak timeline chart for SEO services: month one audit and fixes; months two to three local and low-competition keywords move; months four to six competitive national keywords in Karachi, Lahore and Islamabad.'),
+    v('seo-ready-website-six-parts-chart', 'SEO-ready website: site structure, technical SEO, speed, on-page templates, schema and internal links built into website development', 'What Makes an SEO-Ready Website', 'Six parts of an SEO-ready website from Google Peak, Karachi. Illustrative summary.', 'Google Peak chart of an SEO-ready website: site structure with one page per keyword, technical SEO, Core Web Vitals speed, on-page templates, schema markup and internal links.'),
+    v('seo-ready-website-launch-checklist-chart', 'SEO-ready website launch checklist: keyword map, headings, Lighthouse speed, Search Console indexing and Google Business Profile', 'SEO-Ready Website: Launch Checklist', 'What Google Peak delivers at launch of an SEO-ready website. Illustrative checklist.', 'Google Peak launch checklist for an SEO-ready website: keyword map, target phrase in headings, mobile Lighthouse near 100, sitemap and Search Console indexing, Google Business Profile details matched.'),
   ],
 };
 
-/* ------------------------------------------------------------------ DIGITAL MARKETING */
-const dms = 'digital marketing services';
+/* ------------------------------------------------------------------ WEBSITES THAT CONVERT (URL kept) */
 const dmPage = {
   slug: 'digital-marketing-services',
   type: 'service',
-  keyword: 'Digital Marketing Services',
-  title: 'Digital Marketing Services | Online Marketing & Google Ads',
-  description: 'Digital marketing services: Google Ads, Meta and Instagram ads, social media management, WhatsApp lead tracking and landing pages by Google Peak.',
-  eyebrow: 'Digital Marketing Services · Google Peak',
-  h1: 'Digital Marketing Services — Google Ads, Social Media and Lead Tracking',
-  intro: 'Digital marketing services should be judged by cost per enquiry, not by likes. Google Peak runs Google Ads, Facebook and Instagram campaigns and social media pages that send measurable calls and WhatsApp messages.',
+  keyword: 'Conversion-Focused Website Design',
+  title: 'Conversion-Focused Website Design | Landing Pages for Ads and Search | Google Peak',
+  description: 'Conversion-focused website design and landing pages from Google Peak: pages built to turn search and ad visitors into calls, WhatsApp messages and sales.',
+  eyebrow: 'Websites and Landing Pages That Convert',
+  h1: 'Conversion-Focused Website Design — Landing Pages That Turn Visitors Into Enquiries',
+  intro: 'Conversion-focused website design makes sure the visitors your rankings and ads bring actually call, message or buy. Google Peak designs landing pages and service pages around one offer and one action, with tracking built in.',
   body: `
-<h2>Digital Marketing Services We Offer</h2>
+<h2>Conversion-Focused Website Design Elements</h2>
 ${cards([
-  ['Google Ads (PPC)', 'Search, Maps and Performance Max campaigns for buying keywords.'],
-  ['Meta Ads', 'Facebook and Instagram ads with lead forms and WhatsApp buttons.'],
-  ['Social Media Management', 'Posting calendars, designs and community replies.'],
-  ['Landing Pages', 'Fast pages built for one offer and one action.'],
-  ['Conversion Tracking', 'Calls, WhatsApp clicks and forms tracked in GA4 and Ads.'],
-  ['Remarketing', 'Ads that follow up with visitors who did not contact you.'],
+  ['One Clear Offer', 'Each page sells one service to one audience.'],
+  ['Contact Above the Fold', 'Call, WhatsApp and form visible without scrolling.'],
+  ['Trust Signals', 'Reviews, credentials, fees and real photos.'],
+  ['Fast Mobile Pages', 'Pages that load in under two seconds on a phone.'],
+  ['Ad Landing Pages', 'Pages matched to Google Ads and Meta ad keywords.'],
+  ['Tracking', 'Calls, WhatsApp clicks and forms recorded in GA4.'],
 ])}
 
-<h2>Google Ads in Our Digital Marketing Services</h2>
-<p>Google Ads reaches people at the moment they search. We build tight ad groups around buying keywords, write ads that mention price, city and speed of service, add negative keywords to stop wasted clicks, and track every call and WhatsApp tap. For most local businesses the first month is about finding the keywords that convert; from the second month we cut the rest and scale what works.</p>
+<h2>Why Conversion-Focused Website Design Matters After You Reach the Top</h2>
+<p>Reaching Google’s top 3 only pays if visitors act. A page with no visible phone number, no prices and a slow form loses most of them. Conversion-focused website design closes that gap.</p>
 
-<h2>Facebook and Instagram Ads Within Digital Marketing Services</h2>
-<p>Meta ads work best for products and services people do not search for yet — new launches, events, fashion, food, education and real estate projects. Our digital marketing services use clear video or image creative, a simple offer and a WhatsApp or lead-form call to action, then retarget people who engaged.</p>
+<h2>Landing Pages Built by Our Conversion-Focused Website Design Team</h2>
+<table>
+<thead><tr><th>Page type</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td>Service landing page</td><td>Search visitors looking for one service</td></tr>
+<tr><td>Ad landing page</td><td>Google Ads or Meta campaign traffic</td></tr>
+<tr><td>City landing page</td><td>Local searches in a specific city</td></tr>
+<tr><td>Offer page</td><td>A promotion or fixed-price package</td></tr>
+</tbody>
+</table>
 
-<h3>Social Media Management and Online Marketing</h3>
-<p>A regularly updated page builds trust when customers check you out. We plan a monthly calendar, design posts in your brand style, and reply to comments and messages within agreed hours.</p>
-
-<h2>Tracking That Makes Digital Marketing Services Accountable</h2>
-<p>We install Google Analytics 4, Google Tag Manager and call and WhatsApp click tracking before spending any budget. Each month you see spend, enquiries and cost per enquiry for each channel, so budget moves to whatever brings customers most cheaply.</p>
-
-<h2>Digital Marketing Services: Pricing</h2>
-${priceTable([
-  ['Google Ads management', 'Setup, keyword bids, ads, conversion tracking, monthly optimisation'],
-  ['Meta ads management', 'Audience, creative, lead forms, retargeting'],
-  ['Social media management', 'Monthly calendar, post designs, replies'],
-  ['Landing page', 'One fast conversion-focused page'],
-])}
-<p>Ad spend is paid directly to Google or Meta and is separate from our management fee.</p>
-
-<h2>Who Uses Our Digital Marketing Services</h2>
-<p>Law and tax firms, clinics, schools, real estate agents, restaurants, e-commerce stores and B2B suppliers in the UK, US, Canada, the UAE, Australia and Pakistan use our digital marketing services.</p>
+<h3>Conversion-Focused Website Design and Tracking</h3>
+<p>We install Google Analytics 4 and track calls, WhatsApp clicks and forms, so you can see which pages bring enquiries. Ad campaign management itself is handled by a separate digital marketing team; we build the pages they send traffic to.</p>
 `,
-  after: `${intl('Digital Marketing Services')}<h2>Start Digital Marketing Services With a Clear Budget</h2><p>Tell us your service, city and monthly budget on WhatsApp. We will suggest the channel mix most likely to bring enquiries.</p>`,
+  after: `${intl('Conversion-Focused Website Design')}`,
   faq: [
-    ['Which is better, Google Ads or Facebook ads?', 'Google Ads for services people search for; Facebook and Instagram for products and offers people discover. Many businesses use both.'],
-    ['What budget do I need for Google Ads?', 'It depends on keyword costs in your field and city. We estimate from keyword data before you spend.'],
-    ['Is ad spend included in your fee?', 'No. Ad spend is paid directly to Google or Meta.'],
-    ['Do you manage social media pages?', 'Yes — posting calendars, designs and replies.'],
-    ['How do you track WhatsApp enquiries?', 'With click tracking on WhatsApp buttons, recorded in Google Analytics 4 and the ad platforms.'],
-    ['How do I start?', 'Message +92 333 1127834 on WhatsApp.'],
+    ['What is conversion-focused website design?', 'Designing pages so visitors take an action — call, message, buy — not just read.'],
+    ['Do you run Google Ads?', 'We build the landing pages and tracking; ad management is a separate service.'],
+    ['How fast should a landing page load?', 'Under two seconds on a mobile connection.'],
+    ['Can you improve my existing pages?', 'Yes, we can redesign individual pages without rebuilding the whole site.'],
   ],
-  related: [['/search-engine-optimization/', 'SEO Services'], ['/web-development/', 'Website Development'], ['/', 'Digital Marketing Agency']],
+  related: [['/', 'Website Design and Development'], ['/web-development/', 'Website Development'], ['/search-engine-optimization/', 'SEO-Ready Website Development']],
   images: [
-    v('digital-marketing-services-in-pakistan-channels-chart', 'Digital marketing services: Google Ads, Facebook and Instagram ads, social media management, landing pages, conversion tracking and remarketing', 'Digital Marketing Services: Six Channels', 'Channels in Google Peak digital marketing services. Illustrative summary.', 'Google Peak chart of digital marketing services for businesses in Karachi, Lahore and Islamabad: Google Ads, Meta ads on Facebook and Instagram, social media management, landing pages, conversion tracking in GA4 and remarketing.'),
-    v('digital-marketing-services-in-pakistan-google-vs-meta-chart', 'Digital marketing services: Google Ads for services people search for versus Facebook and Instagram ads for products people discover', 'Google Ads or Meta Ads? Choosing the Right Channel', 'When to use Google Ads and when to use Meta ads in digital marketing services. Illustrative comparison.', 'Google Peak comparison chart for digital marketing services: Google Ads reach people already searching for a service; Facebook and Instagram ads create demand for products and offers; both tracked by cost per enquiry.'),
+    v('conversion-focused-website-design-elements-chart', 'Conversion-focused website design elements: one clear offer, contact above the fold, trust signals, fast mobile pages, ad landing pages and tracking', 'Conversion-Focused Website Design: Six Elements', 'What turns visitors into enquiries on a Google Peak website. Illustrative summary.', 'Google Peak chart of conversion-focused website design elements: one clear offer, call and WhatsApp above the fold, trust signals, fast mobile pages, ad landing pages and GA4 tracking.'),
+    v('conversion-focused-website-design-landing-page-types-chart', 'Conversion-focused website design landing page types: service landing page, ad landing page, city landing page and offer page', 'Landing Page Types We Build', 'Four landing page types from Google Peak conversion-focused website design. Illustrative summary.', 'Google Peak chart of landing page types: service landing pages for search visitors, ad landing pages for Google Ads and Meta, city landing pages for local searches, and offer pages for promotions.'),
   ],
 };
 
@@ -285,7 +262,7 @@ ${priceTable([
     ['Do you provide hosting?', 'We set up Vercel or managed hosting in your name.'],
     ['How do I get a quote?', 'WhatsApp +92 333 1127834 with your requirements.'],
   ],
-  related: [['/e-commerce/', 'E-commerce Website Development'], ['/search-engine-optimization/', 'SEO Services'], ['/content-writing/', 'Content Writing Services']],
+  related: [['/e-commerce/', 'E-commerce Website Development'], ['/search-engine-optimization/', 'SEO-Ready Website Development'], ['/content-writing/', 'Content Writing Services']],
   images: [
     v('website-development-in-pakistan-features-chart', 'Website development features: speed first, SEO built in, mobile layout, WhatsApp and call buttons, easy updates and secure hosting', 'Website Development: Six Essentials', 'What every Google Peak website development project includes. Illustrative summary.', 'Google Peak chart of website development essentials for businesses in Karachi, Lahore and Islamabad: speed first with WebP images, SEO built in, mobile-first layout, WhatsApp and call buttons, easy updates, and secure hosting on Vercel or managed servers.'),
     v('website-development-in-pakistan-process-chart', 'Website development process: plan, design, content, build and launch with redirects and Search Console submission', 'Website Development: Five-Stage Process', 'The five stages of website development at Google Peak. Illustrative process.', 'Google Peak process chart for website development: plan the keyword map, design mobile-first, write SEO content, build in Next.js or WordPress, and launch with 301 redirects and Google Search Console submission.'),
@@ -343,7 +320,7 @@ ${priceTable([
     ['Can you move my existing store?', 'Yes, with products, customers and URLs preserved.'],
     ['How do I start?', 'WhatsApp +92 333 1127834.'],
   ],
-  related: [['/web-development/', 'Website Development'], ['/digital-marketing-services/', 'Digital Marketing Services'], ['/content-writing/', 'Content Writing Services']],
+  related: [['/web-development/', 'Website Development'], ['/digital-marketing-services/', 'Conversion-Focused Website Design'], ['/content-writing/', 'Content Writing Services']],
   images: [
     v('e-commerce-website-development-in-pakistan-features-chart', 'E-commerce website development: store setup, cash on delivery, JazzCash and Easypaisa payments, courier integration, product SEO and marketing', 'E-commerce Website Development: Six Parts', 'What Google Peak includes in e-commerce website development. Illustrative summary.', 'Google Peak chart of e-commerce website development for stores in Karachi, Lahore and Islamabad: Shopify or WooCommerce setup, local payments including cash on delivery, JazzCash and Easypaisa, courier integration, product SEO, mobile speed and marketing.'),
     v('e-commerce-website-development-in-pakistan-shopify-vs-woocommerce-chart', 'E-commerce website development: Shopify quick launch and monthly fee versus WooCommerce on WordPress with more control and hosting needs', 'Shopify vs WooCommerce for Pakistani Stores', 'Choosing a platform for e-commerce website development. Illustrative comparison.', 'Google Peak comparison chart for e-commerce website development: Shopify — quick launch, monthly subscription, easy management; WooCommerce — no platform fee, more control, needs good hosting and maintenance.'),
@@ -351,18 +328,18 @@ ${priceTable([
 };
 
 /* ------------------------------------------------------------------ CONTENT WRITING */
-const cw = 'content writing services';
+const cw = 'website content writing';
 const contentPage = {
   slug: 'content-writing',
   type: 'service',
-  keyword: 'Content Writing Services',
-  title: 'Content Writing Services | SEO Content | Google Peak',
+  keyword: 'Website Content Writing',
+  title: 'Website Content Writing | Copy for New Websites | Google Peak',
   description: 'Content writing services: SEO service pages, blogs, product descriptions and website copy in British or American English, written for search intent.',
   eyebrow: 'Content Writing · Google Peak',
-  h1: 'Content Writing Services — SEO Pages, Blogs and Website Copy',
-  intro: 'Content writing services are only worth paying for if the pages rank and persuade. Google Peak writes service pages, blogs and product copy around the exact phrases your customers search, with the facts, tables and FAQs that make readers call.',
+  h1: 'Website Content Writing — SEO Pages, Blogs and Website Copy',
+  intro: 'Website content writing is only worth paying for if the pages rank and persuade. Google Peak writes the launch copy for the websites we build: service pages, city pages and product copy around the exact phrases your customers search, with the facts, tables and FAQs that make readers call.',
   body: `
-<h2>Content Writing Services We Provide</h2>
+<h2>Website Content Writing We Provide</h2>
 ${cards([
   ['Service Pages', 'Money pages targeting one keyword each, with fees and FAQs.'],
   ['City Pages', 'Unique pages for each city — no name-swapping.'],
@@ -372,7 +349,7 @@ ${cards([
   ['Content Refresh', 'Old pages updated for current facts and keywords.'],
 ])}
 
-<h2>How Our Content Writing Services Follow SEO Rules</h2>
+<h2>How Our Website Content Writing Follow SEO Rules</h2>
 <ul>
 <li>The first paragraph opens with the focus keyword.</li>
 <li>The key phrase appears naturally in several H2 and H3 headings.</li>
@@ -382,13 +359,13 @@ ${cards([
 <li>Internal links connect related pages so none is left orphaned.</li>
 </ul>
 
-<h2>Content Writing Services for Professional Firms</h2>
+<h2>Website Content Writing for Professional Firms</h2>
 <p>Legal, tax, medical and financial pages need accuracy. Our writers research the current law, fees and procedures from official sources, and a subject expert reviews the page before publication. We have written and ranked hundreds of such pages across our own network.</p>
 
 <h3>British or American English</h3>
 <p>We write in the spelling and tone your audience expects — British English for UK, Commonwealth and South Asian readers, American English where your market is the US.</p>
 
-<h2>Content Writing Services: Pricing</h2>
+<h2>Website Content Writing: Pricing</h2>
 ${priceTable([
   ['Service or city page', '800–1,200 words with tables and FAQs'],
   ['Blog guide', '1,000–2,000 words, researched and referenced'],
@@ -397,9 +374,9 @@ ${priceTable([
 ])}
 
 <h2>Why Unique Content Matters</h2>
-<p>Copying a page and changing only the city name produces near-duplicate content that Google filters out. Our content writing services write each page from scratch around what that city or service actually involves.</p>
+<p>Copying a page and changing only the city name produces near-duplicate content that Google filters out. Our website content writing write each page from scratch around what that city or service actually involves.</p>
 `,
-  after: `${intl('Content Writing Services')}<h2>Order Content Writing Services</h2><p>Send your topic list or website on WhatsApp and we will suggest keywords and a writing plan.</p>`,
+  after: `${intl('Website Content Writing')}<h2>Order Website Content Writing</h2><p>Send your topic list or website on WhatsApp and we will suggest keywords and a writing plan.</p>`,
   faq: [
     ['Is your content written by people?', 'Yes. Writers research and draft; an editor and subject reviewer check every page.'],
     ['Do you guarantee unique content?', 'Yes. Every page is written for its own keyword and checked for duplication.'],
@@ -410,8 +387,8 @@ ${priceTable([
   ],
   related: [['/content-writing-seo-content-writing-why-is-seo-content-writing-important/', 'SEO Content Writing Guide'], ['/content-writing-definition-importance-and-applications/', 'Content Writing: Definition and Uses'], ['/article-rewriting-what-is-article-rewriting-article-rewriting-ai-tools/', 'Article Rewriting']],
   images: [
-    v('content-writing-services-in-pakistan-types-chart', 'Content writing services: service pages, city pages, blog articles, product descriptions, website copy and content refresh', 'Content Writing Services: Six Types', 'Content types in Google Peak content writing services. Illustrative summary.', 'Google Peak chart of content writing services for businesses in Karachi, Lahore and Islamabad: SEO service pages, unique city pages, blog articles, e-commerce product descriptions, website copy, and content refresh of old pages.'),
-    v('content-writing-services-in-pakistan-seo-rules-chart', 'Content writing services SEO rules: keyword in first paragraph, key phrase in headings, healthy density, tables and FAQs, sources at the bottom, internal links', 'SEO Rules in Every Page We Write', 'The checklist behind Google Peak content writing services. Illustrative checklist.', 'Google Peak checklist for content writing services: focus keyword opens the first paragraph, key phrase in H2 and H3 headings, healthy keyword density, tables and FAQs, reviewed-by and updated line, official sources placed low, internal links.'),
+    v('content-writing-services-in-pakistan-types-chart', 'Content writing services: service pages, city pages, blog articles, product descriptions, website copy and content refresh', 'Website Content Writing: Six Types', 'Content types in Google Peak website content writing. Illustrative summary.', 'Google Peak chart of website content writing for businesses in Karachi, Lahore and Islamabad: SEO service pages, unique city pages, blog articles, e-commerce product descriptions, website copy, and content refresh of old pages.'),
+    v('content-writing-services-in-pakistan-seo-rules-chart', 'Content writing services SEO rules: keyword in first paragraph, key phrase in headings, healthy density, tables and FAQs, sources at the bottom, internal links', 'SEO Rules in Every Page We Write', 'The checklist behind Google Peak website content writing. Illustrative checklist.', 'Google Peak checklist for website content writing: focus keyword opens the first paragraph, key phrase in H2 and H3 headings, healthy keyword density, tables and FAQs, reviewed-by and updated line, official sources placed low, internal links.'),
   ],
 };
 
@@ -420,11 +397,11 @@ const aboutPage = {
   slug: 'about-us',
   type: 'service',
   keyword: 'Google Peak',
-  title: 'About Google Peak | Digital Marketing Agency in Karachi, Pakistan',
-  description: 'About Google Peak, a Karachi-based digital marketing agency since 2016, focused on SEO, websites and campaigns that bring enquiries.',
+  title: 'About Google Peak | Website Design and Development Company, Karachi',
+  description: 'About Google Peak, a Karachi-based website design and development company since 2016, building websites designed to reach Google’s top 3.',
   eyebrow: 'About Google Peak',
-  h1: 'About Google Peak — A Karachi Digital Marketing Agency Built on SEO',
-  intro: 'Google Peak is a digital marketing agency in Karachi, Pakistan, working since 2016. We started as an SEO team and still believe that ranking for the right searches is the most reliable way to grow a business online.',
+  h1: 'About Google Peak — Website Design and Development Built to Reach Google’s Top 3',
+  intro: 'Google Peak is a website design and development company in Karachi, Pakistan, working since 2016. Our name says what we do: build websites that can reach the peak of Google — the top 3 results.',
   body: `
 <h2>Who We Are at Google Peak</h2>
 <p>Google Peak is part of a group that runs and ranks a large network of its own websites in law, tax, company registration and family services. Everything we recommend to clients we test first on our own sites — page structure, keyword density, speed, schema and linking.</p>
@@ -432,8 +409,8 @@ const aboutPage = {
 
 <h2>What Google Peak Does</h2>
 ${cards([
-  ['SEO Services', 'Rankings for buying keywords.', '/search-engine-optimization/'],
-  ['Digital Marketing', 'Google Ads, Meta ads and social media.', '/digital-marketing-services/'],
+  ['SEO-Ready Websites', 'Built to reach Google’s top 3.', '/search-engine-optimization/'],
+  ['Converting Pages', 'Landing pages that turn visitors into enquiries.', '/digital-marketing-services/'],
   ['Web Development', 'Fast SEO-ready websites.', '/web-development/'],
 ])}
 
@@ -454,9 +431,9 @@ ${cards([
     ['Who leads SEO at Google Peak?', 'Syed Mohsin Ali Shah, with more than 28 years of search experience.'],
     ['Do you work with overseas clients?', 'Yes, online.'],
   ],
-  related: [['/what-is-google-peak/', 'What is Google Peak?'], ['/contact-us/', 'Contact Google Peak'], ['/', 'Digital Marketing Agency']],
+  related: [['/what-is-google-peak/', 'What is Google Peak?'], ['/contact-us/', 'Contact Google Peak'], ['/', 'Website Design and Development']],
   images: [
-    v('google-peak-about-us-karachi-team-chart', 'About Google Peak digital marketing agency in Karachi, Pakistan: working since 2016, SEO-led team, own website network, plain reporting', 'About Google Peak: Karachi Digital Marketing Agency', 'Google Peak at a glance — a Karachi digital marketing agency since 2016. Illustrative summary.', 'Google Peak summary chart: digital marketing agency in Karachi, Pakistan, working since 2016; SEO led by Syed Mohsin Ali Shah with 28+ years of search experience; tests methods on its own website network; plain monthly reporting.'),
+    v('google-peak-about-us-karachi-team-chart', 'About Google Peak website design and development company in Karachi, Pakistan: working since 2016, SEO-led team, own website network, plain reporting', 'About Google Peak: Karachi Digital Marketing Agency', 'Google Peak at a glance — a Karachi website design and development company since 2016. Illustrative summary.', 'Google Peak summary chart: website design and development company in Karachi, Pakistan, working since 2016; SEO led by Syed Mohsin Ali Shah with 28+ years of search experience; tests methods on its own website network; plain monthly reporting.'),
     v('google-peak-about-us-how-we-work-chart', 'How Google Peak works: plain reporting, no spam links, unique content for every page and fast replies on WhatsApp', 'How Google Peak Works With Clients', 'Four working principles at Google Peak, Karachi. Illustrative summary.', 'Google Peak chart of working principles for clients in Pakistan: plain reporting of rankings and enquiries, no spam links, unique content on every page, and fast WhatsApp replies from the Karachi team.'),
   ],
 };
@@ -466,10 +443,10 @@ const contactPage = {
   slug: 'contact-us',
   type: 'service',
   keyword: 'Contact Google Peak',
-  title: 'Contact Google Peak | Digital Marketing Agency Karachi | WhatsApp',
-  description: 'Contact Google Peak, digital marketing agency in Karachi, Pakistan: WhatsApp or call +92 333 1127834 for SEO, Google Ads, websites and content.',
+  title: 'Contact Google Peak | Website Design and Development | WhatsApp',
+  description: 'Contact Google Peak, website design and development company in Karachi, Pakistan: email info@googlepeak.com or WhatsApp +92 333 1127834 for a website quote.',
   eyebrow: 'Contact Google Peak',
-  h1: 'Contact Google Peak — SEO and Digital Marketing in Karachi, Pakistan',
+  h1: 'Contact Google Peak — Website Design and Development, Karachi',
   intro: 'Contact Google Peak on WhatsApp or by phone at +92 333 1127834, or email info@googlepeak.com. Send your website link and what you want more customers for, and we will reply with a short plan.',
   body: `
 <h2>How to Contact Google Peak</h2>
@@ -493,8 +470,8 @@ const contactPage = {
 
 <h2>Our Services</h2>
 ${cards([
-  ['SEO Services', 'Rank for buying keywords.', '/search-engine-optimization/'],
-  ['Digital Marketing', 'Google Ads and social media.', '/digital-marketing-services/'],
+  ['SEO-Ready Websites', 'Built to reach Google’s top 3.', '/search-engine-optimization/'],
+  ['Converting Pages', 'Landing pages that bring enquiries.', '/digital-marketing-services/'],
   ['Web Development', 'Fast SEO-ready websites.', '/web-development/'],
 ])}
 `,
@@ -505,9 +482,9 @@ ${cards([
     ['Do you offer a free audit?', 'Yes, a short audit of your website and keywords.'],
     ['Do you have offices outside Pakistan?', 'No. Our only office is in Karachi; we serve clients in the UK, US, Canada, the UAE and Australia online.'],
   ],
-  related: [['/about-us/', 'About Google Peak'], ['/', 'Digital Marketing Agency']],
+  related: [['/about-us/', 'About Google Peak'], ['/', 'Website Design and Development']],
   images: [
-    v('contact-google-peak-karachi-whatsapp-chart', 'Contact Google Peak digital marketing agency in Karachi: WhatsApp and phone +92 333 1127834, office in Gulistan-e-Jauhar, online meetings', 'Contact Google Peak, Karachi', 'Ways to contact Google Peak in Karachi, Pakistan. Illustrative summary.', 'Google Peak contact chart: WhatsApp and phone +92 333 1127834; office at Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi; online meetings for clients across Pakistan.'),
+    v('contact-google-peak-karachi-whatsapp-chart', 'Contact Google Peak website design and development company in Karachi: WhatsApp and phone +92 333 1127834, office in Gulistan-e-Jauhar, online meetings', 'Contact Google Peak, Karachi', 'Ways to contact Google Peak in Karachi, Pakistan. Illustrative summary.', 'Google Peak contact chart: WhatsApp and phone +92 333 1127834; office at Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi; online meetings for clients across Pakistan.'),
     v('contact-google-peak-what-to-send-chart', 'What to send when you contact Google Peak: website link, services and cities you want customers for, and current ads budget', 'What to Send Google Peak for a Quick Plan', 'Three things to send Google Peak in Karachi for a fast reply. Illustrative checklist.', 'Google Peak checklist for new enquiries from Pakistan: website link, services and cities you want customers for, and current Google or Meta ads budget.'),
   ],
 };
@@ -517,14 +494,14 @@ const gpPage = {
   slug: 'what-is-google-peak',
   type: 'guide',
   keyword: 'Google Peak',
-  title: 'What is Google Peak? | Karachi SEO and Digital Marketing Agency',
-  description: 'What is Google Peak? A Karachi-based SEO and digital marketing agency — not a Google product. What it does, who it serves and how to contact it.',
+  title: 'What is Google Peak? | Website Design and Development Company',
+  description: 'What is Google Peak? A Karachi-based website design and development company — not a Google product — building websites made to reach Google’s top 3.',
   eyebrow: 'What is Google Peak?',
   h1: 'What is Google Peak? The Karachi SEO Agency Explained',
-  intro: 'Google Peak is a Karachi-based SEO and digital marketing agency, working since 2016. It is an independent company and is not owned by or affiliated with Google LLC; the name reflects our aim of getting clients to the peak of Google results.',
+  intro: 'Google Peak is a Karachi-based website design and development company, working since 2016. It is an independent company and is not owned by or affiliated with Google LLC; the name reflects our aim of getting clients to the peak of Google results.',
   body: `
 <h2>Google Peak Is an Agency, Not a Google Product</h2>
-<p>People sometimes search "Google Peak" expecting a Google tool or a term for peak search traffic. Google Peak is neither — it is a digital marketing agency offering SEO, Google Ads management, websites and content. Google, Google Ads and Google Maps are trademarks of Google LLC.</p>
+<p>People sometimes search "Google Peak" expecting a Google tool or a term for peak search traffic. Google Peak is neither — it is a website design and development company whose websites are built to reach the peak of Google: the top 3 results. Google, Google Ads and Google Maps are trademarks of Google LLC.</p>
 
 <h2>What Google Peak Does</h2>
 ${cards([
@@ -545,10 +522,10 @@ ${cards([
     ['Where is Google Peak based?', 'Gulistan-e-Jauhar, Karachi, Pakistan.'],
     ['How do I contact Google Peak?', 'WhatsApp +92 333 1127834.'],
   ],
-  related: [['/about-us/', 'About Google Peak'], ['/', 'Digital Marketing Agency']],
+  related: [['/about-us/', 'About Google Peak'], ['/', 'Website Design and Development']],
   sources: 'Google, Google Ads, Google Maps and Google Trends are trademarks of Google LLC. Official source: Google Trends — https://trends.google.com/',
   images: [
-    v('what-is-google-peak-karachi-agency-chart', 'What is Google Peak: an independent SEO and digital marketing agency in Karachi, Pakistan since 2016, not a Google product', 'What is Google Peak?', 'Google Peak explained — a Karachi agency, not a Google product. Illustrative summary.', 'Google Peak explainer chart: independent SEO and digital marketing agency in Karachi, Pakistan, working since 2016; not owned by or affiliated with Google LLC; offers SEO, Google Ads, websites and content.'),
+    v('what-is-google-peak-karachi-agency-chart', 'What is Google Peak: an independent website design and development company in Karachi, Pakistan since 2016, not a Google product', 'What is Google Peak?', 'Google Peak explained — a Karachi agency, not a Google product. Illustrative summary.', 'Google Peak explainer chart: independent website design and development company in Karachi, Pakistan, working since 2016; not owned by or affiliated with Google LLC; offers SEO, Google Ads, websites and content.'),
     v('what-is-google-peak-services-chart', 'Google Peak services in Pakistan: SEO, Google Ads and social media, and website development for businesses in Karachi, Lahore and Islamabad', 'Google Peak: Three Core Services', 'The three core services of Google Peak in Pakistan. Illustrative summary.', 'Google Peak services chart for businesses in Karachi, Lahore and Islamabad: SEO for buying keywords, Google Ads and Meta campaigns, and fast Next.js and WordPress websites.'),
   ],
 };
