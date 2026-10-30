@@ -1,7 +1,7 @@
 export const site = {
   name: 'Google Peak',
   url: 'https://googlepeak.com',
-  tagline: 'Digital Marketing Agency in Pakistan',
+  tagline: 'Digital Marketing Agency and SEO Company',
   phone: '+92 333 1127834',
   phoneHref: 'tel:+923331127834',
   whatsapp: 'https://wa.me/923331127834',
