@@ -2,7 +2,7 @@
 // Overlapping topics are differentiated by intent: definition, how-to, benefits, checklist.
 import { v, cards } from './helpers';
 
-const svc = `<h2>Need Help? Google Peak Does This for Clients</h2><p>If you would rather have it done for you, see our <a href="/search-engine-optimization/">SEO services in Pakistan</a> or <a href="/content-writing/">content writing services</a>, or WhatsApp +92 333 1127834.</p>`;
+const svc = `<h2>Need Help? Google Peak Does This for Clients</h2><p>If you would rather have it done for you, see our <a href="/search-engine-optimization/">SEO services in Pakistan</a> or <a href="/content-writing/">content writing services</a>, or WhatsApp +92 302 6644789.</p>`;
 
 /* ---------------------------------------------------------------- WHAT IS SEO */
 const whatIsSeo = {
@@ -442,7 +442,7 @@ ${cards([
 
 <h3>Content That Builds Trust in the Renewable Energy Transition</h3>
 <p>Show real installations, warranty terms, brand names, net-metering steps and payback calculations. Buyers spending large sums want evidence, not slogans. The renewable energy transition rewards energy businesses that explain clearly and answer quickly.</p>
-<h2>Marketing an Energy Business Through the Renewable Energy Transition</h2><p>Google Peak plans <a href="/search-engine-optimization/">SEO</a> and <a href="/digital-marketing-services/">digital marketing</a> for energy companies in Pakistan. WhatsApp +92 333 1127834.</p>
+<h2>Marketing an Energy Business Through the Renewable Energy Transition</h2><p>Google Peak plans <a href="/search-engine-optimization/">SEO</a> and <a href="/digital-marketing-services/">digital marketing</a> for energy companies in Pakistan. WhatsApp +92 302 6644789.</p>
 `,
   faq: [
     ['What is the renewable energy transition?', 'The global shift from fossil fuels to renewable sources such as solar and wind, supported by batteries and electrification.'],
