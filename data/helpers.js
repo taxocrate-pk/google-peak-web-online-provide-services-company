@@ -1,0 +1,3 @@
+export const v = (file, alt, title, caption, description) => ({ src: `/images/${file}.webp`, alt, title, caption, description });
+export const cards = (list) => `<div class="cards">${list.map(([t, d, h]) => `<div class="card"><h3>${h ? `<a href="${h}">${t}</a>` : t}</h3><p>${d}</p></div>`).join('')}</div>`;
+export const priceTable = (rows) => `<table><thead><tr><th>Package</th><th>What is included</th><th>Price</th></tr></thead><tbody>${rows.map(([a, b]) => `<tr><td>${a}</td><td>${b}</td><td>Quoted after a free audit</td></tr>`).join('')}</tbody></table><p>Every website and market is different, so we quote after a free audit rather than selling a fixed package that may not fit.</p>`;

@@ -1,30 +1,26 @@
-import "./globals.css";
-
+import './globals.css';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import { site } from '@/data/site';
 export const metadata = {
-  title: "PixelCraft Agency — Digital Excellence",
-  description:
-    "Premium digital agency offering Website Development, Digital Marketing, and Graphic Design services across the USA.",
-  keywords:
-    "web development, digital marketing, graphic design, Next.js, SEO, USA agency",
+  metadataBase: new URL(site.url),
+  title: { default: 'Digital Marketing Agency in Pakistan | Google Peak', template: '%s' },
+  description: 'Google Peak is a digital marketing agency in Pakistan offering SEO services, Google Ads, social media marketing, web development and content writing.',
+  icons: { icon: '/favicon.svg' },
 };
-
+const org = {
+  '@context': 'https://schema.org', '@type': 'ProfessionalService', name: site.name, url: site.url,
+  telephone: site.phone, address: { '@type': 'PostalAddress', streetAddress: 'Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar', addressLocality: 'Karachi', addressCountry: 'PK' },
+  areaServed: 'Pakistan', foundingDate: site.founded,
+};
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="antialiased bg-white text-charcoal-light font-dm">
-        {children}
+    <html lang="en-GB">
+      <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
