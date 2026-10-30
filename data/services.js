@@ -1,6 +1,19 @@
 // Google Peak — service and company pages (SEO DNA rewrite, 30 October 2026).
 import { v, cards, priceTable } from './helpers';
 
+const intl = (svc) => `<h2>${svc} for the UK, USA, Canada, UAE and Australia — at About Half the Price</h2>
+<p>Businesses in London, Manchester, New York, Los Angeles, Toronto, Dubai, Sydney and Melbourne hire Google Peak because they get senior-level ${svc.toLowerCase()} at roughly half what a comparable local agency charges. The work is done by our team in Karachi, Pakistan, and delivered online — the same strategy, the same reporting, a much lower monthly cost.</p>
+<table>
+<thead><tr><th>Market</th><th>How we work with you</th></tr></thead>
+<tbody>
+<tr><td>United Kingdom</td><td>British English, GBP quotes, calls in UK working hours</td></tr>
+<tr><td>United States and Canada</td><td>American English, USD/CAD quotes, overlap with Eastern Time mornings</td></tr>
+<tr><td>UAE and Gulf</td><td>Same-day replies — Pakistan is one hour ahead of Dubai</td></tr>
+<tr><td>Australia</td><td>Reports and calls scheduled for Australian business hours</td></tr>
+</tbody>
+</table>
+<p>We have one office, in Karachi; all international work is handled online by email (info@googlepeak.com), video call and WhatsApp. Send us your website and a competitor you want to beat, and we will show you what we would do and what it would cost.</p>`;
+
 /* ------------------------------------------------------------------ HOME */
 const dm = 'digital marketing agency';
 const home = {
@@ -9,9 +22,9 @@ const home = {
   keyword: 'Digital Marketing Agency',
   title: 'Digital Marketing Agency | SEO Company | Google Peak',
   description: 'Google Peak is a digital marketing agency for SEO services, Google Ads, social media, website development and content writing that brings enquiries.',
-  eyebrow: 'Google Peak · Serving Clients Worldwide',
+  eyebrow: 'Google Peak · UK, USA, Canada, UAE & Australia — at About Half the Price',
   h1: 'Digital Marketing Agency for SEO, Google Ads and Websites That Bring Enquiries',
-  intro: 'Digital marketing agency work should end in phone calls, WhatsApp messages and sales — not in reports full of impressions. Google Peak plans SEO, Google Ads, social media, websites and content around the searches your customers already make.',
+  intro: 'Digital marketing agency work should end in phone calls, WhatsApp messages and sales — not in reports full of impressions. Google Peak plans SEO, Google Ads, websites and content for clients in the UK, USA, Canada, the UAE and Australia at about half the price of a local agency.',
   body: `
 <h2>Why Choose a Digital Marketing Agency That Starts With Search</h2>
 <p>A digital marketing agency has to work with how buyers actually behave, whether they are in London, Dubai, Toronto or Karachi. Most of them start on Google, compare two or three businesses, read reviews and then call, email or message on WhatsApp. Google Peak builds every campaign around that path: get found on the search, look trustworthy on the page, and make it one tap to contact you.</p>
@@ -61,7 +74,7 @@ ${priceTable([
   ['Website + SEO', 'New fast website with SEO-ready pages'],
 ])}
 `,
-  after: `<h2>Talk to a Digital Marketing Agency That Answers on WhatsApp</h2><p>Send your website and the service you want more customers for. We reply with a short audit and a plan you can act on, whether or not you hire us.</p>`,
+  after: `${intl('Digital Marketing')}<h2>Talk to a Digital Marketing Agency That Answers on WhatsApp</h2><p>Send your website and the service you want more customers for. We reply with a short audit and a plan you can act on, whether or not you hire us.</p>`,
   faq: [
     ['What does a digital marketing agency do?', 'It brings customers online through SEO, Google Ads, social media, websites and content, and tracks which of these produce enquiries.'],
     ['How long does SEO take?', 'Local and low-competition keywords often move in 2–3 months; competitive national keywords usually take 4–6 months or more.'],
@@ -125,7 +138,7 @@ ${priceTable([
 <h2>Results You Can Expect From SEO Services and Our SEO Agency</h2>
 <p>Low-competition and local keywords usually begin to move within two to three months. National keywords in competitive fields such as law, real estate and e-commerce take longer — often four to six months. We report rankings, traffic and enquiries every month, so you can see whether the work is paying for itself.</p>
 `,
-  after: `<h2>Get a Free Audit From Our SEO Services Team</h2><p>Send your website link on WhatsApp. We check speed, indexing and your top keywords, and tell you the three changes that will help most.</p>`,
+  after: `${intl('SEO Services')}<h2>Get a Free Audit From Our SEO Services Team</h2><p>Send your website link on WhatsApp. We check speed, indexing and your top keywords, and tell you the three changes that will help most.</p>`,
   faq: [
     ['What are SEO services?', 'Work that improves how a website ranks on Google for the searches your customers make — keywords, content, technical fixes and links.'],
     ['How much do SEO services cost?', 'It depends on competition and the number of pages. We quote after a free audit.'],
@@ -187,7 +200,7 @@ ${priceTable([
 <h2>Who Uses Our Digital Marketing Services</h2>
 <p>Law and tax firms, clinics, schools, real estate agents, restaurants, e-commerce stores and B2B suppliers in the UK, US, Canada, the UAE, Australia and Pakistan use our digital marketing services.</p>
 `,
-  after: `<h2>Start Digital Marketing Services With a Clear Budget</h2><p>Tell us your service, city and monthly budget on WhatsApp. We will suggest the channel mix most likely to bring enquiries.</p>`,
+  after: `${intl('Digital Marketing Services')}<h2>Start Digital Marketing Services With a Clear Budget</h2><p>Tell us your service, city and monthly budget on WhatsApp. We will suggest the channel mix most likely to bring enquiries.</p>`,
   faq: [
     ['Which is better, Google Ads or Facebook ads?', 'Google Ads for services people search for; Facebook and Instagram for products and offers people discover. Many businesses use both.'],
     ['What budget do I need for Google Ads?', 'It depends on keyword costs in your field and city. We estimate from keyword data before you spend.'],
@@ -263,7 +276,7 @@ ${priceTable([
 <h2>A Web Design Company and Website Development for Professional Firms</h2>
 <p>We build and run a large network of law and tax websites, so we understand what professional firms need: credentials, review and update lines, fee tables, office details and fast WhatsApp contact. The same standards apply to every website development project we take on.</p>
 `,
-  after: `<h2>Plan Your Website Development Project</h2><p>Send your current website (if any) and a list of services. We will reply with a page plan and a quote.</p>`,
+  after: `${intl('Website Development')}<h2>Plan Your Website Development Project</h2><p>Send your current website (if any) and a list of services. We will reply with a page plan and a quote.</p>`,
   faq: [
     ['How long does a business website take?', 'Usually two to four weeks, depending on content and the number of pages.'],
     ['Next.js or WordPress — which is better?', 'Next.js is faster and more secure; WordPress is easier for frequent editing. We advise based on how you will use the site.'],
@@ -321,7 +334,7 @@ ${priceTable([
 <h2>Marketing After E-commerce Website Development</h2>
 <p>A store needs traffic from day one. We connect Google Merchant Center for Shopping ads, Meta catalogues for Facebook and Instagram ads, and a content plan for category SEO, so your e-commerce website development investment starts earning quickly.</p>
 `,
-  after: `<h2>Plan Your E-commerce Website Development</h2><p>Tell us what you sell and how many products. We will recommend a platform and send a quote.</p>`,
+  after: `${intl('E-commerce Website Development')}<h2>Plan Your E-commerce Website Development</h2><p>Tell us what you sell and how many products. We will recommend a platform and send a quote.</p>`,
   faq: [
     ['Shopify or WooCommerce — which is better?', 'Shopify for quick launch and simple management; WooCommerce for lower running cost and more control.'],
     ['Can customers pay with JazzCash or Easypaisa?', 'Yes, through supported payment gateways, alongside cash on delivery and cards.'],
@@ -386,7 +399,7 @@ ${priceTable([
 <h2>Why Unique Content Matters</h2>
 <p>Copying a page and changing only the city name produces near-duplicate content that Google filters out. Our content writing services write each page from scratch around what that city or service actually involves.</p>
 `,
-  after: `<h2>Order Content Writing Services</h2><p>Send your topic list or website on WhatsApp and we will suggest keywords and a writing plan.</p>`,
+  after: `${intl('Content Writing Services')}<h2>Order Content Writing Services</h2><p>Send your topic list or website on WhatsApp and we will suggest keywords and a writing plan.</p>`,
   faq: [
     ['Is your content written by people?', 'Yes. Writers research and draft; an editor and subject reviewer check every page.'],
     ['Do you guarantee unique content?', 'Yes. Every page is written for its own keyword and checked for duplication.'],
