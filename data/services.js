@@ -72,7 +72,7 @@ ${priceTable([
     ['Next.js or WordPress?', 'Next.js for speed and security; WordPress when your team needs to edit often. We advise based on how you will use the site.'],
     ['Can you redesign my site without losing rankings?', 'Yes. We keep or 301-redirect every indexed URL and resubmit the sitemap.'],
     ['Do you work with clients outside Pakistan?', 'Yes — the UK, USA, Canada, the UAE and Australia, online.'],
-    ['How do I get a quote?', 'Email info@googlepeak.com or WhatsApp +92 333 1127834 with your current site or requirements.'],
+    ['How do I get a quote?', 'Email info@googlepeak.com or WhatsApp +92 302 6644789 with your current site or requirements.'],
   ],
   related: [['/web-development/', 'Website Development'], ['/e-commerce/', 'E-commerce Website Development'], ['/search-engine-optimization/', 'SEO-Ready Website Development']],
   images: [
@@ -260,7 +260,7 @@ ${priceTable([
     ['Will my new website be SEO friendly?', 'Yes. Pages, headings, schema, speed and sitemaps are built for SEO from the start.'],
     ['Can you move my old website without losing rankings?', 'Yes. We keep or redirect every indexed URL and resubmit the sitemap.'],
     ['Do you provide hosting?', 'We set up Vercel or managed hosting in your name.'],
-    ['How do I get a quote?', 'WhatsApp +92 333 1127834 with your requirements.'],
+    ['How do I get a quote?', 'WhatsApp +92 302 6644789 with your requirements.'],
   ],
   related: [['/e-commerce/', 'E-commerce Website Development'], ['/search-engine-optimization/', 'SEO-Ready Website Development'], ['/content-writing/', 'Content Writing Services']],
   images: [
@@ -318,7 +318,7 @@ ${priceTable([
     ['Do you connect couriers?', 'Yes, local and international courier and shipping integrations.'],
     ['Will my products show on Google?', 'Yes, through product SEO and Google Merchant Center.'],
     ['Can you move my existing store?', 'Yes, with products, customers and URLs preserved.'],
-    ['How do I start?', 'WhatsApp +92 333 1127834.'],
+    ['How do I start?', 'WhatsApp +92 302 6644789.'],
   ],
   related: [['/web-development/', 'Website Development'], ['/digital-marketing-services/', 'Conversion-Focused Website Design'], ['/content-writing/', 'Content Writing Services']],
   images: [
@@ -383,7 +383,7 @@ ${priceTable([
     ['Can you write legal and tax content?', 'Yes, researched from official sources and reviewed by a subject expert.'],
     ['Do you upload the content too?', 'We can publish directly to WordPress or your Next.js site.'],
     ['British or American English?', 'Whichever your audience expects.'],
-    ['How do I order?', 'WhatsApp +92 333 1127834.'],
+    ['How do I order?', 'WhatsApp +92 302 6644789.'],
   ],
   related: [['/content-writing-seo-content-writing-why-is-seo-content-writing-important/', 'SEO Content Writing Guide'], ['/content-writing-definition-importance-and-applications/', 'Content Writing: Definition and Uses'], ['/article-rewriting-what-is-article-rewriting-article-rewriting-ai-tools/', 'Article Rewriting']],
   images: [
@@ -423,7 +423,7 @@ ${cards([
 </ul>
 
 <h2>Where Google Peak Is Based</h2>
-<p>Our office is at ${'Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi'}. We work with clients in the UK, US, Canada, the UAE, Australia and Pakistan, mostly online.</p>
+<p>Our office is at ${'M-51, Mezzanine Floor, Muneer Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi'}. We work with clients in the UK, US, Canada, the UAE, Australia and Pakistan, mostly online.</p>
 `,
   faq: [
     ['When was Google Peak founded?', 'Google Peak has been working since 2016.'],
@@ -444,19 +444,19 @@ const contactPage = {
   type: 'service',
   keyword: 'Contact Google Peak',
   title: 'Contact Google Peak | Website Design and Development | WhatsApp',
-  description: 'Contact Google Peak, website design and development company in Karachi, Pakistan: email info@googlepeak.com or WhatsApp +92 333 1127834 for a website quote.',
+  description: 'Contact Google Peak, website design and development company in Karachi, Pakistan: email info@googlepeak.com or WhatsApp +92 302 6644789 for a website quote.',
   eyebrow: 'Contact Google Peak',
   h1: 'Contact Google Peak — Website Design and Development, Karachi',
-  intro: 'Contact Google Peak on WhatsApp or by phone at +92 333 1127834, or email info@googlepeak.com. Send your website link and what you want more customers for, and we will reply with a short plan.',
+  intro: 'Contact Google Peak on WhatsApp or by phone at +92 302 6644789, or email info@googlepeak.com. Send your website link and what you want more customers for, and we will reply with a short plan.',
   body: `
 <h2>How to Contact Google Peak</h2>
 <table>
 <thead><tr><th>Method</th><th>Details</th></tr></thead>
 <tbody>
-<tr><td>WhatsApp</td><td><a href="https://wa.me/923331127834">+92 333 1127834</a></td></tr>
+<tr><td>WhatsApp</td><td><a href="https://wa.me/923026644789">+92 302 6644789</a></td></tr>
 <tr><td>Email</td><td><a href="mailto:info@googlepeak.com">info@googlepeak.com</a></td></tr>
-<tr><td>Phone</td><td><a href="tel:+923331127834">+92 333 1127834</a></td></tr>
-<tr><td>Office</td><td>Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi</td></tr>
+<tr><td>Phone</td><td><a href="tel:+923026644789">+92 302 6644789</a></td></tr>
+<tr><td>Office</td><td>M-51, Mezzanine Floor, Muneer Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi</td></tr>
 <tr><td>Meetings</td><td>Online, or at the Karachi office by appointment</td></tr>
 </tbody>
 </table>
@@ -476,7 +476,7 @@ ${cards([
 ])}
 `,
   faq: [
-    ['What is the fastest way to contact Google Peak?', 'WhatsApp +92 333 1127834.'],
+    ['What is the fastest way to contact Google Peak?', 'WhatsApp +92 302 6644789.'],
     ['What is Google Peak\'s email address?', 'info@googlepeak.com — international clients often prefer email.'],
     ['Can I visit your office?', 'Yes, in Gulistan-e-Jauhar, Karachi, by appointment.'],
     ['Do you offer a free audit?', 'Yes, a short audit of your website and keywords.'],
@@ -484,7 +484,7 @@ ${cards([
   ],
   related: [['/about-us/', 'About Google Peak'], ['/', 'Website Design and Development']],
   images: [
-    v('contact-google-peak-karachi-whatsapp-chart', 'Contact Google Peak website design and development company in Karachi: WhatsApp and phone +92 333 1127834, office in Gulistan-e-Jauhar, online meetings', 'Contact Google Peak, Karachi', 'Ways to contact Google Peak in Karachi, Pakistan. Illustrative summary.', 'Google Peak contact chart: WhatsApp and phone +92 333 1127834; office at Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi; online meetings for clients across Pakistan.'),
+    v('contact-google-peak-karachi-whatsapp-chart', 'Contact Google Peak website design and development company in Karachi: WhatsApp and phone +92 302 6644789, office in Gulistan-e-Jauhar, online meetings', 'Contact Google Peak, Karachi', 'Ways to contact Google Peak in Karachi, Pakistan. Illustrative summary.', 'Google Peak contact chart: WhatsApp and phone +92 302 6644789; office at M-51, Mezzanine Floor, Muneer Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi; online meetings for clients across Pakistan.'),
     v('contact-google-peak-what-to-send-chart', 'What to send when you contact Google Peak: website link, services and cities you want customers for, and current ads budget', 'What to Send Google Peak for a Quick Plan', 'Three things to send Google Peak in Karachi for a fast reply. Illustrative checklist.', 'Google Peak checklist for new enquiries from Pakistan: website link, services and cities you want customers for, and current Google or Meta ads budget.'),
   ],
 };
@@ -520,7 +520,7 @@ ${cards([
     ['Is Google Peak owned by Google?', 'No. Google Peak is an independent agency in Karachi and is not affiliated with Google LLC.'],
     ['What does Google Peak do?', 'SEO, Google Ads and social media management, website development and content writing.'],
     ['Where is Google Peak based?', 'Gulistan-e-Jauhar, Karachi, Pakistan.'],
-    ['How do I contact Google Peak?', 'WhatsApp +92 333 1127834.'],
+    ['How do I contact Google Peak?', 'WhatsApp +92 302 6644789.'],
   ],
   related: [['/about-us/', 'About Google Peak'], ['/', 'Website Design and Development']],
   sources: 'Google, Google Ads, Google Maps and Google Trends are trademarks of Google LLC. Official source: Google Trends — https://trends.google.com/',
