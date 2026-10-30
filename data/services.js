@@ -7,7 +7,7 @@ const home = {
   slug: '',
   type: 'service',
   keyword: 'Digital Marketing Agency in Pakistan',
-  title: 'Digital Marketing Agency in Pakistan | SEO Services | Google Peak',
+  title: 'Digital Marketing Agency in Pakistan | SEO Company | Google Peak',
   description: 'Google Peak is a digital marketing agency in Pakistan for SEO services, Google Ads, social media, website development and content writing that brings enquiries.',
   eyebrow: 'Google Peak · Karachi, Pakistan',
   h1: 'Digital Marketing Agency in Pakistan for SEO, Google Ads and Websites That Bring Enquiries',
@@ -15,7 +15,7 @@ const home = {
   body: `
 <h2>Why Choose a Digital Marketing Agency in Pakistan That Starts With Search</h2>
 <p>A digital marketing agency in Pakistan has to work with how Pakistani buyers actually behave. Most of them start on Google, compare two or three businesses, read reviews on Google Maps and then message on WhatsApp. Google Peak builds every campaign around that path: get found on the search, look trustworthy on the page, and make it one tap to contact you.</p>
-<p>We began as an SEO team in Karachi and still treat search as the foundation. Paid ads, social media and content all work better when the website already ranks for the terms people type.</p>
+<p>We began as an SEO company in Karachi and still treat search as the foundation; today we are a full digital marketing company covering SEO, ads, website design and content. Paid ads, social media and content all work better when the website already ranks for the terms people type.</p>
 
 <h2>Services From Our Digital Marketing Agency in Pakistan</h2>
 ${cards([
@@ -27,8 +27,8 @@ ${cards([
   ['SEO Guides', 'Plain-English guides on SEO, backlinks and content for business owners.', '/what-is-seo-is-seo-important-how-does-seo-work-learn-seo/'],
 ])}
 
-<h2>SEO Services in Pakistan: The Core of Our Work</h2>
-<p>SEO services in Pakistan are where we spend most of our time. A page that ranks in the top three for a buying keyword produces enquiries every day without paying for every click. We research the exact phrases buyers use in Urdu-English search ("lawyer in Karachi", "company registration fee", "best tiles in Lahore"), write pages for those phrases, fix the technical problems that hold a site back, and build links from relevant Pakistani and international websites.</p>
+<h2>SEO Services in Pakistan: The Core of Our Digital Marketing Company</h2>
+<p>SEO services in Pakistan are where our SEO company spends most of its time, and every campaign is led by an SEO expert with decades of experience. A page that ranks in the top three for a buying keyword produces enquiries every day without paying for every click. We research the exact phrases buyers use in Urdu-English search ("lawyer in Karachi", "company registration fee", "best tiles in Lahore"), write pages for those phrases, fix the technical problems that hold a site back, and build links from relevant Pakistani and international websites.</p>
 
 <h3>How a Digital Marketing Agency in Pakistan Should Measure Results</h3>
 <ul>
@@ -50,7 +50,7 @@ ${cards([
 </tbody>
 </table>
 
-<h2>Industries We Serve Across Pakistan</h2>
+<h2>A Digital Marketing Company and SEO Company Serving All of Pakistan</h2>
 <p>Our digital marketing agency in Pakistan has worked with law firms, tax consultants, clinics, real estate agents, schools, manufacturers, e-commerce stores and service companies in Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad and Hyderabad, as well as overseas clients who want to reach Pakistani customers. Professional services are a speciality: we run and rank a large network of legal and tax websites ourselves, so we know what it takes to win competitive local searches.</p>
 
 <h2>Pricing at Our Digital Marketing Agency in Pakistan</h2>
@@ -83,10 +83,10 @@ const seoPage = {
   slug: 'search-engine-optimization',
   type: 'service',
   keyword: 'SEO Services in Pakistan',
-  title: 'SEO Services in Pakistan | Search Engine Optimization | Google Peak',
+  title: 'SEO Services in Pakistan | SEO Company & SEO Expert | Google Peak',
   description: 'SEO services in Pakistan from Google Peak: keyword research, on-page and technical SEO, local SEO, Google Business Profile and link building that bring enquiries.',
   eyebrow: 'Search Engine Optimization · Google Peak',
-  h1: 'SEO Services in Pakistan — Search Engine Optimization That Ranks Pages for Buying Keywords',
+  h1: 'SEO Services in Pakistan — An SEO Company That Ranks Pages for Buying Keywords',
   intro: 'SEO services in Pakistan should put your pages in front of people who are ready to buy. Google Peak researches the phrases your customers type, fixes what stops Google from ranking your site, and builds the content and links that move you to the top.',
   body: `
 <h2>What Our SEO Services in Pakistan Include</h2>
@@ -105,11 +105,11 @@ ${cards([
 <h2>On-Page and Technical SEO Services in Pakistan</h2>
 <p>Each target page gets a clear title, one H1, headings that repeat the key phrase naturally, a first paragraph that opens with it, enough useful content to answer the searcher, a price or process table, FAQs and a review and update line. On the technical side we fix slow pages, broken links, duplicate pages, missing canonicals and schema, and make sure Google can crawl and index everything that matters.</p>
 
-<h3>Website Speed and Core Web Vitals</h3>
+<h3>Website Speed and Core Web Vitals: What an SEO Expert Checks First</h3>
 <p>Many Pakistani business websites run heavy page builders and uncompressed images. Moving to lighter templates, WebP images and good hosting often lifts rankings on its own. Where it makes sense, we rebuild the site in Next.js so it scores close to 100 in Lighthouse.</p>
 
 <h2>Local SEO Services in Pakistan for Karachi, Lahore and Islamabad</h2>
-<p>For businesses that serve a city, the Google Maps pack is the most valuable spot on the page. Our local SEO services in Pakistan cover Google Business Profile optimisation, city landing pages, consistent name-address-phone details across directories, and a steady flow of genuine reviews.</p>
+<p>Local SEO is the fastest win for most businesses. For businesses that serve a city, the Google Maps pack is the most valuable spot on the page. Our local SEO services in Pakistan cover Google Business Profile optimisation, city landing pages, consistent name-address-phone details across directories, and a steady flow of genuine reviews.</p>
 
 <h2>Link Building in Our SEO Services in Pakistan</h2>
 <p>Links are still one of Google's strongest signals. We earn them through guest articles on relevant sites, business directories, local news and industry associations, and by creating guides people want to cite. We do not buy spam links or private blog network links that put your site at risk.</p>
@@ -122,7 +122,7 @@ ${priceTable([
   ['SEO audit only', 'Full written audit with prioritised fix list'],
 ])}
 
-<h2>Results You Can Expect From SEO Services in Pakistan</h2>
+<h2>Results You Can Expect From SEO Services in Pakistan and Our SEO Agency</h2>
 <p>Low-competition and local keywords usually begin to move within two to three months. National keywords in competitive fields such as law, real estate and e-commerce take longer — often four to six months. We report rankings, traffic and enquiries every month, so you can see whether the work is paying for itself.</p>
 `,
   after: `<h2>Get a Free Audit From Our SEO Services in Pakistan Team</h2><p>Send your website link on WhatsApp. We check speed, indexing and your top keywords, and tell you the three changes that will help most.</p>`,
@@ -147,7 +147,7 @@ const dmPage = {
   slug: 'digital-marketing-services',
   type: 'service',
   keyword: 'Digital Marketing Services in Pakistan',
-  title: 'Digital Marketing Services in Pakistan | Google Ads & Social Media',
+  title: 'Digital Marketing Services in Pakistan | Online Marketing & Google Ads',
   description: 'Digital marketing services in Pakistan: Google Ads, Meta and Instagram ads, social media management, WhatsApp lead tracking and landing pages by Google Peak.',
   eyebrow: 'Digital Marketing Services · Google Peak',
   h1: 'Digital Marketing Services in Pakistan — Google Ads, Social Media and Lead Tracking',
@@ -169,7 +169,7 @@ ${cards([
 <h2>Facebook and Instagram Ads Within Digital Marketing Services in Pakistan</h2>
 <p>Meta ads work best for products and services people do not search for yet — new launches, events, fashion, food, education and real estate projects. Our digital marketing services in Pakistan use clear video or image creative, a simple offer and a WhatsApp or lead-form call to action, then retarget people who engaged.</p>
 
-<h3>Social Media Management</h3>
+<h3>Social Media Management and Online Marketing</h3>
 <p>A regularly updated page builds trust when customers check you out. We plan a monthly calendar, design posts in your brand style, and reply to comments and messages within agreed hours.</p>
 
 <h2>Tracking That Makes Digital Marketing Services in Pakistan Accountable</h2>
@@ -209,10 +209,10 @@ const webPage = {
   slug: 'web-development',
   type: 'service',
   keyword: 'Website Development in Pakistan',
-  title: 'Website Development in Pakistan | Fast SEO-Ready Websites | Google Peak',
+  title: 'Website Development in Pakistan | Website Design Company | Google Peak',
   description: 'Website development in Pakistan: fast Next.js and WordPress business websites with SEO-ready pages, WhatsApp buttons and Lighthouse scores near 100.',
   eyebrow: 'Web Development · Google Peak',
-  h1: 'Website Development in Pakistan — Fast, SEO-Ready Business Websites',
+  h1: 'Website Development in Pakistan — Website Design and Fast, SEO-Ready Business Websites',
   intro: 'Website development in Pakistan often stops at a nice-looking homepage. Google Peak builds websites that load in under two seconds on a mobile connection, rank for your services and turn visitors into WhatsApp enquiries.',
   body: `
 <h2>What Makes Our Website Development in Pakistan Different</h2>
@@ -226,9 +226,9 @@ ${cards([
 ])}
 
 <h2>Website Development in Pakistan With Next.js or WordPress</h2>
-<p>For most business websites we now recommend Next.js hosted on Vercel: pages are pre-built, load almost instantly and cannot be broken by plugin updates. WordPress remains the right choice when your team needs to publish often through a familiar editor. Either way, our website development in Pakistan keeps the build light — no heavy page builders above the fold, no oversized images.</p>
+<p>Good website design and solid development go together. For most business websites we now recommend Next.js hosted on Vercel: pages are pre-built, load almost instantly and cannot be broken by plugin updates. WordPress remains the right choice when your team needs to publish often through a familiar editor. Either way, our website development in Pakistan keeps the build light — no heavy page builders above the fold, no oversized images.</p>
 
-<h2>Pages Every Business Website Needs</h2>
+<h2>Website Design: Pages Every Business Website Needs</h2>
 <ul>
 <li>A homepage targeting your main national keyword.</li>
 <li>One page for each service, written for its own keyword.</li>
@@ -249,7 +249,7 @@ ${cards([
 </tbody>
 </table>
 
-<h3>Moving an Old Website Without Losing Rankings</h3>
+<h3>Website Redesign Without Losing Rankings</h3>
 <p>When we rebuild a site, every indexed URL is kept or redirected with a 301, titles and content are improved rather than thrown away, and the new sitemap is submitted to Google Search Console. This is how we migrated googlepeak.com itself from WordPress to Next.js.</p>
 
 <h2>Website Development in Pakistan: Pricing</h2>
@@ -260,7 +260,7 @@ ${priceTable([
   ['Landing page', 'Single conversion-focused page'],
 ])}
 
-<h2>Website Development in Pakistan for Professional Firms</h2>
+<h2>A Web Design Company and Website Development in Pakistan for Professional Firms</h2>
 <p>We build and run a large network of law and tax websites, so we understand what professional firms need: credentials, review and update lines, fee tables, office details and fast WhatsApp contact. The same standards apply to every website development in Pakistan project we take on.</p>
 `,
   after: `<h2>Plan Your Website Development in Pakistan Project</h2><p>Send your current website (if any) and a list of services. We will reply with a page plan and a quote.</p>`,
@@ -285,10 +285,10 @@ const ecomPage = {
   slug: 'e-commerce',
   type: 'service',
   keyword: 'E-commerce Website Development in Pakistan',
-  title: 'E-commerce Website Development in Pakistan | Online Store | Google Peak',
+  title: 'E-commerce Website Development in Pakistan | Shopify Website | Google Peak',
   description: 'E-commerce website development in Pakistan: Shopify and WooCommerce stores with JazzCash, Easypaisa and card payments, courier integration and product SEO.',
   eyebrow: 'E-commerce · Google Peak',
-  h1: 'E-commerce Website Development in Pakistan — Online Stores That Sell',
+  h1: 'E-commerce Website Development in Pakistan — Shopify and WooCommerce Stores That Sell',
   intro: 'E-commerce website development in Pakistan has to handle cash on delivery, local wallets and courier booking as well as good product pages. Google Peak builds Shopify and WooCommerce stores that rank for product searches and make ordering simple.',
   body: `
 <h2>What Our E-commerce Website Development in Pakistan Covers</h2>
@@ -302,12 +302,12 @@ ${cards([
 ])}
 
 <h2>Shopify or WooCommerce for E-commerce Website Development in Pakistan</h2>
-<p>Shopify is quick to launch and easy to manage, with a monthly subscription. WooCommerce runs on WordPress, has no platform fee and offers more control, but needs good hosting and maintenance. Our e-commerce website development in Pakistan starts by matching the platform to your product count, budget and team.</p>
+<p>A Shopify website is quick to launch and easy to manage, with a monthly subscription. WooCommerce runs on WordPress, has no platform fee and offers more control, but needs good hosting and maintenance. Our e-commerce website development in Pakistan starts by matching the platform to your product count, budget and team.</p>
 
 <h2>Payments and Delivery in E-commerce Website Development in Pakistan</h2>
 <p>Most Pakistani shoppers still prefer cash on delivery, while a growing share pay by wallet or card. We set up all the options your customers expect, add order confirmation by WhatsApp or SMS to reduce fake orders, and connect courier booking so dispatch takes minutes.</p>
 
-<h3>Product Pages That Rank</h3>
+<h3>Ecommerce Website Product Pages That Rank</h3>
 <p>Each category page targets a search such as "ladies kurta online Pakistan" or "solar inverter price in Pakistan". Product pages carry unique descriptions, specifications, prices, delivery times and reviews, with product schema so Google can show price and stock in results.</p>
 
 <h2>E-commerce Website Development in Pakistan: Pricing</h2>
