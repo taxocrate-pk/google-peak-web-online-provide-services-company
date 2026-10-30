@@ -14,7 +14,7 @@ export default function Footer() {
         <div><p className="logo"><span className="logo-mark">GP</span><span>Google <b>Peak</b></span></p><p>{site.tagline} — SEO, digital marketing, web development and content for businesses worldwide.</p></div>
         <div><h4>Services</h4>{nav.slice(0, 5).map((n) => <Link key={n.href} href={n.href}>{n.label}</Link>)}</div>
         <div><h4>Guides</h4>{guides.map(([h, l]) => <Link key={h} href={h}>{l}</Link>)}</div>
-        <div><h4>Contact</h4><p>{site.address}</p><a href={site.phoneHref}>Call {site.phone}</a><a href={site.whatsapp} target="_blank" rel="noopener">WhatsApp {site.phone}</a></div>
+        <div><h4>Contact</h4><p>{site.address}</p><a href={`mailto:${site.email}`}>{site.email}</a><a href={site.phoneHref}>Call {site.phone}</a><a href={site.whatsapp} target="_blank" rel="noopener">WhatsApp {site.phone}</a></div>
       </div>
       <p className="wrap copy">© {site.founded}–2026 Google Peak. All rights reserved.</p>
     </footer>

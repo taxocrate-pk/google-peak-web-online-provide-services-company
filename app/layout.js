@@ -10,7 +10,7 @@ export const metadata = {
 };
 const org = {
   '@context': 'https://schema.org', '@type': 'ProfessionalService', name: site.name, url: site.url,
-  telephone: site.phone, address: { '@type': 'PostalAddress', streetAddress: 'Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar', addressLocality: 'Karachi', addressCountry: 'PK' },
+  telephone: site.phone, email: site.email, address: { '@type': 'PostalAddress', streetAddress: 'Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar', addressLocality: 'Karachi', addressCountry: 'PK' },
   areaServed: ['GB','US','CA','AE','AU','PK'], foundingDate: site.founded,
 };
 export default function RootLayout({ children }) {

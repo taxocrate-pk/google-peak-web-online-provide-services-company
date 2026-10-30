@@ -457,13 +457,14 @@ const contactPage = {
   description: 'Contact Google Peak, digital marketing agency in Karachi, Pakistan: WhatsApp or call +92 333 1127834 for SEO, Google Ads, websites and content.',
   eyebrow: 'Contact Google Peak',
   h1: 'Contact Google Peak — SEO and Digital Marketing in Karachi, Pakistan',
-  intro: 'Contact Google Peak on WhatsApp or by phone at +92 333 1127834. Send your website link and what you want more customers for, and we will reply with a short plan.',
+  intro: 'Contact Google Peak on WhatsApp or by phone at +92 333 1127834, or email info@googlepeak.com. Send your website link and what you want more customers for, and we will reply with a short plan.',
   body: `
 <h2>How to Contact Google Peak</h2>
 <table>
 <thead><tr><th>Method</th><th>Details</th></tr></thead>
 <tbody>
 <tr><td>WhatsApp</td><td><a href="https://wa.me/923331127834">+92 333 1127834</a></td></tr>
+<tr><td>Email</td><td><a href="mailto:info@googlepeak.com">info@googlepeak.com</a></td></tr>
 <tr><td>Phone</td><td><a href="tel:+923331127834">+92 333 1127834</a></td></tr>
 <tr><td>Office</td><td>Mezzanine Floor, Munir Mobile Mall, Block 17, Gulistan-e-Jauhar, Karachi</td></tr>
 <tr><td>Meetings</td><td>Online, or at the Karachi office by appointment</td></tr>
@@ -486,9 +487,10 @@ ${cards([
 `,
   faq: [
     ['What is the fastest way to contact Google Peak?', 'WhatsApp +92 333 1127834.'],
+    ['What is Google Peak\'s email address?', 'info@googlepeak.com — international clients often prefer email.'],
     ['Can I visit your office?', 'Yes, in Gulistan-e-Jauhar, Karachi, by appointment.'],
     ['Do you offer a free audit?', 'Yes, a short audit of your website and keywords.'],
-    ['Do you work with international clients?', 'Yes — in the UK, US, Canada, the UAE, Australia and Pakistan.'],
+    ['Do you have offices outside Pakistan?', 'No. Our only office is in Karachi; we serve clients in the UK, US, Canada, the UAE and Australia online.'],
   ],
   related: [['/about-us/', 'About Google Peak'], ['/', 'Digital Marketing Agency']],
   images: [

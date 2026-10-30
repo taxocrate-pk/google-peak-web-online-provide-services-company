@@ -54,6 +54,7 @@ export default function PageView({ page }) {
             <p>Tell us your website and goal. We reply with a plain plan and a quote.</p>
             <a className="btn" href={site.whatsapp} target="_blank" rel="noopener">WhatsApp {site.phone}</a>
             <a className="btn btn-ghost" href={site.phoneHref}>Call {site.phone}</a>
+            <a href={`mailto:${site.email}`}>{site.email}</a>
             <p className="small">{site.address}</p>
           </div>
         </aside>
