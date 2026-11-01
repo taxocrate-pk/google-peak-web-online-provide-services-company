@@ -33,7 +33,7 @@ export const legalSites = {
     ['pakistanmarriage.com.pk', 'Marriage services'], ['marriage.international', 'International marriage'], ['onlinenikah.co.uk', 'Online Nikah — UK'],
     ['onlinenikahservices.com', 'Online Nikah services'], ['nikahhouse.com', 'Nikah brand'], ['nikahnama.online', 'Nikah Nama'],
     ['online-shadi.com', 'Online shadi'], ['onlineshadi.com', 'Online shadi'], ['courtmarriage.world', 'Court marriage'],
-    ['e-marriages.com', 'Online marriage services'], ['onlinemarriagelawyers.com', 'Online marriage lawyers'],
+    ['e-marriages.com', 'Online marriage services'], ['onlinemarriagelawyers.com', 'Online marriage lawyers'], ['visaoffice.co.uk', 'Visa and immigration — UK name'],
   ],
 }
 
