@@ -16,7 +16,6 @@ export const legalSites = {
     ['court-marriage.com', 'Court marriage worldwide — India, South Africa, UK and more; aged domain with strong backlinks', 'PKR 25 lakh'], ['courtmarriage.world', 'Court marriage — worldwide name', 'PKR 5 lakh'],
     ['courtmarriagelaw.com', 'Court marriage law — worldwide name', 'PKR 5 lakh'], ['marriage.international', 'International marriage', 'PKR 5 lakh'],
     ['onlinenikah.co.uk', 'Online Nikah — UK', 'PKR 5 lakh'],
-    ['visaoffice.co.uk', 'Visa and immigration — UK name', 'PKR 5 lakh'],
     ['nikahhouse.com', 'Nikah brand', 'PKR 5 lakh'],
     ['e-marriages.com', 'Online marriage services', 'PKR 5 lakh'],
     ['onlinenikahservices.com', 'Online Nikah services', 'PKR 5 lakh'],
@@ -40,6 +39,10 @@ export const legalSites = {
     ['courtmarriagelawyers.pk', 'Court marriage lawyers'], ['courtmarriagelawyers.com.pk', 'Court marriage lawyers'], ['nadracertificate.com', 'NADRA certificates'],
     ['pakistanmarriage.com.pk', 'Marriage services'], ['nikahnama.online', 'Nikah Nama'],
     ['online-shadi.com', 'Online shadi'], ['onlineshadi.com', 'Online shadi'], ['onlinemarriagelawyers.com', 'Online marriage lawyers'], ],
+  'Other good names — low prices': [
+    ['pakistantours.com.pk', 'Pakistan tours — travel and tourism name', 'PKR 2 lakh'], ['visaoffice.co.uk', 'Visa and immigration — UK name', 'PKR 2 lakh'],
+    ['newmurree.com.pk', 'New Murree — now a district headquarters area', 'PKR 1 lakh'],
+  ],
 }
 
 // Asking price for non-premium groups (premium cards carry their own price).
