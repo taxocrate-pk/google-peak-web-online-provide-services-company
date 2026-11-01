@@ -1,4 +1,4 @@
-import { legalSites, offerPhone } from '@/data/legal-sites';
+import { groupPrice, legalSites, offerPhone } from '@/data/legal-sites';
 import { site } from '@/data/site';
 
 export const metadata = {
@@ -49,7 +49,7 @@ export default function Page() {
       {Object.entries(legalSites).map(([group, list]) => <div key={group}>
         <h2>{group}</h2>
         <div className="cards">{list.map(([d, note, price]) => <div className="card" key={d}>
-          <h3 style={{ wordBreak: 'break-all' }}>{d}</h3><p>{note}</p>{price && <p style={{ fontWeight: 700, color: '#b3261e', marginTop: 6 }}>Asking price: {price} (negotiable) — rent available</p>}
+          <h3 style={{ wordBreak: 'break-all' }}>{d}</h3><p>{note}</p>{(price || groupPrice[group]) && <p style={{ fontWeight: 700, color: '#b3261e', marginTop: 6 }}>Asking price: {price || groupPrice[group]} (negotiable) — rent available</p>{!price && <p style={{ fontSize: 13, marginTop: 4 }}>With Top 10 Google results on at least 5 keywords</p>}}
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 12 }}>
             <a className="btn btn-sm" href={wa(d, 'monthly rent')}>Rent</a>
             <a className="btn btn-sm btn-ghost" href={wa(d, 'partnership')}>Partnership</a>

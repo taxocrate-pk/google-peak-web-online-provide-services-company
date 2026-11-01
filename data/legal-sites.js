@@ -34,3 +34,9 @@ export const legalSites = {
     ['online-shadi.com', 'Online shadi'], ['onlineshadi.com', 'Online shadi'], ['courtmarriage.world', 'Court marriage'],
   ],
 }
+
+// Asking price for non-premium groups (premium cards carry their own price).
+export const groupPrice = {
+  'City lawyer websites': 'PKR 10 lakh', 'National legal names': 'PKR 10 lakh',
+  'Tax websites': 'PKR 5 lakh', 'Court marriage and Nikah websites': 'PKR 5 lakh',
+};
