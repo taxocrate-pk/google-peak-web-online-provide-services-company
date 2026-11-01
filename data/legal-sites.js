@@ -4,7 +4,7 @@ export const legalSites = {
   'Premium legal names': [
     ['qanoonhouse.com + .pk + .com.pk', 'Qanoon House — franchise-ready legal brand, all three domains together', 'PKR 50 lakh'], ['qanoon.online', 'Qanoon — premium Urdu legal name', 'PKR 50 lakh'],
     ['advocates.com.pk', 'Advocates — Pakistan', 'PKR 50 lakh'], ['attorneys.com.pk', 'Attorneys — Pakistan', 'PKR 50 lakh'],
-    ['uni.com.pk', 'UNI — ultra-short premium .com.pk brand name', 'PKR 50 lakh'],
+    ['uni.com.pk + 8 unigroup domains', 'UNI — ultra-short premium .com.pk brand, with unigroup .services, .live, .digital, .help, .work, .beauty, .hair and .makeup', 'PKR 50 lakh'],
     ['pak.legal', 'Ultra-short premium .legal name', 'PKR 50 lakh'], ['qanoongroup.com', 'Qanoon Group — network brand', 'PKR 50 lakh'],
     ['taxocrate.com', 'Taxocrate — with Taxocrate (Pvt) Limited company registration', 'PKR 50 lakh'], 
     ['rightlaw.pk + rightlaw.com.pk', 'Both domains together, with Right Law Associates (Pvt) Limited company registration', 'PKR 50 lakh'],
@@ -33,6 +33,7 @@ export const legalSites = {
     ['pakistanmarriage.com.pk', 'Marriage services'], ['marriage.international', 'International marriage'], ['onlinenikah.co.uk', 'Online Nikah — UK'],
     ['onlinenikahservices.com', 'Online Nikah services'], ['nikahhouse.com', 'Nikah brand'], ['nikahnama.online', 'Nikah Nama'],
     ['online-shadi.com', 'Online shadi'], ['onlineshadi.com', 'Online shadi'], ['courtmarriage.world', 'Court marriage'],
+    ['e-marriages.com', 'Online marriage services'], ['onlinemarriagelawyers.com', 'Online marriage lawyers'],
   ],
 }
 
