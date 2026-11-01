@@ -2,15 +2,23 @@
 export const offerPhone = '923332316871';
 export const legalSites = {
   'Premium legal names': [
-    ['qanoonhouse.com + .pk + .com.pk', 'Qanoon House — franchise-ready legal brand, all three domains together', 'PKR 50 lakh'], ['qanoon.online', 'Qanoon — premium Urdu legal name', 'PKR 50 lakh'],
-    ['advocates.com.pk', 'Advocates — Pakistan', 'PKR 50 lakh'], ['attorneys.com.pk', 'Attorneys — Pakistan', 'PKR 50 lakh'],
+    ['qanoonhouse.com + .pk + .com.pk', 'Qanoon House — franchise-ready legal brand, all three domains together', 'PKR 50 lakh'], ['advocates.com.pk', 'Advocates — Pakistan', 'PKR 50 lakh'], ['attorneys.com.pk', 'Attorneys — Pakistan', 'PKR 50 lakh'],
     ['uni.com.pk + 8 unigroup domains', 'UNI — ultra-short premium .com.pk brand, with unigroup .services, .live, .digital, .help, .work, .beauty, .hair and .makeup', 'PKR 50 lakh'],
-    ['pak.legal', 'Ultra-short premium .legal name', 'PKR 50 lakh'], ['qanoongroup.com', 'Qanoon Group — network brand', 'PKR 50 lakh'],
-    ['taxocrate.com', 'Taxocrate — with Taxocrate (Pvt) Limited company registration', 'PKR 50 lakh'], 
-    ['rightlaw.pk + rightlaw.com.pk', 'Both domains together, with Right Law Associates (Pvt) Limited company registration', 'PKR 50 lakh'],
+    ['pak.legal', 'Ultra-short premium .legal name', 'PKR 50 lakh'], ['rightlaw.pk + rightlaw.com.pk', 'Both domains together, with Right Law Associates (Pvt) Limited company registration', 'PKR 50 lakh'],
     ['courtmarriage.com.pk', 'Court marriage — top name', 'PKR 25 lakh'],
     ['court-marriage.com', 'Court marriage — .com', 'PKR 25 lakh'], ['karachilawyers.com.pk + .pk', 'Karachi lawyers — both domains together', 'PKR 25 lakh'],
     ['islamabadlawyers.com.pk', 'Islamabad lawyers — new Next.js site', 'PKR 25 lakh'], ['legaladvisors.com.pk', 'Legal advisors — Pakistan', 'PKR 25 lakh'],
+  ],
+  'International names — usable worldwide': [
+    ['qanoon.online', 'Qanoon — a word every Muslim knows, for law firms across the Islamic world and Muslim communities in Europe', 'PKR 50 lakh'],
+    ['qanoongroup.com', 'Qanoon Group — legal network brand for any Muslim-majority country', 'PKR 50 lakh'],
+    ['taxocrate.com', 'Taxocrate — global tax brand, with Taxocrate (Pvt) Limited company registration', 'PKR 50 lakh'],
+    ['marriage.international', 'International marriage', 'PKR 5 lakh'],
+    ['onlinenikah.co.uk', 'Online Nikah — UK', 'PKR 5 lakh'],
+    ['visaoffice.co.uk', 'Visa and immigration — UK name', 'PKR 5 lakh'],
+    ['nikahhouse.com', 'Nikah brand', 'PKR 5 lakh'],
+    ['e-marriages.com', 'Online marriage services', 'PKR 5 lakh'],
+    ['onlinenikahservices.com', 'Online Nikah services', 'PKR 5 lakh'],
   ],
   'City lawyer websites': [
     ['lahorelawyers.com.pk', 'Lahore — new fast Next.js site'], ['rawalpindilawyers.com.pk', 'Rawalpindi'], ['hyderabadlawyers.com.pk', 'Hyderabad'],
@@ -30,11 +38,9 @@ export const legalSites = {
     ['courtmarriagepakistan.com', 'Court marriage — Pakistan'], ['courtmarriage.live', 'Court marriage'], ['courtmarriagelaw.com', 'Court marriage law'],
     ['courtmarriageinpakistan.com', 'Court marriage in Pakistan'], ['courtmarriagekarachi.com.pk', 'Court marriage — Karachi'], ['karachicourtmarriage.com', 'Karachi court marriage'],
     ['courtmarriagelawyers.pk', 'Court marriage lawyers'], ['courtmarriagelawyers.com.pk', 'Court marriage lawyers'], ['nadracertificate.com', 'NADRA certificates'],
-    ['pakistanmarriage.com.pk', 'Marriage services'], ['marriage.international', 'International marriage'], ['onlinenikah.co.uk', 'Online Nikah — UK'],
-    ['onlinenikahservices.com', 'Online Nikah services'], ['nikahhouse.com', 'Nikah brand'], ['nikahnama.online', 'Nikah Nama'],
+    ['pakistanmarriage.com.pk', 'Marriage services'], ['nikahnama.online', 'Nikah Nama'],
     ['online-shadi.com', 'Online shadi'], ['onlineshadi.com', 'Online shadi'], ['courtmarriage.world', 'Court marriage'],
-    ['e-marriages.com', 'Online marriage services'], ['onlinemarriagelawyers.com', 'Online marriage lawyers'], ['visaoffice.co.uk', 'Visa and immigration — UK name'],
-  ],
+    ['onlinemarriagelawyers.com', 'Online marriage lawyers'], ],
 }
 
 // Asking price for non-premium groups (premium cards carry their own price).
