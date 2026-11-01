@@ -33,6 +33,18 @@ export default function Page() {
       <p dir="rtl" lang="ur" style={{ ...ur, fontSize: 18 }}>جو سائٹس پہلے سے ٹاپ 10 میں ہیں وہ اسی حالت میں ملیں گی۔ باقی سائٹس کے لیے بیعانہ دیں، ہم ایک سے دو ماہ میں ٹاپ 10 میں لائیں گے — نہ آئیں تو بیعانہ واپس۔</p>
     </section>
 
+    <section className="wrap" id="packages" style={{ padding: '0 16px 30px' }}>
+      <h2>Monthly Rental Packages — Your Ready-Made 24-Hour Online Office</h2>
+      <p>A working legal website that brings enquiries day and night, at a cost even a newly enrolled advocate can start with.</p>
+      <div className="cards">
+        <div className="card"><h3>Basic Rental</h3><p style={{ fontSize: 26, fontWeight: 800, color: '#b3261e' }}>PKR 25,000 / month</p>
+          <ul><li>Ready legal website with your name, photo, office address and number</li><li>WhatsApp and call buttons — enquiries come straight to you</li><li>Basic Google promotion and upkeep</li><li>Ideal for new advocates starting practice</li></ul>
+          <a className="btn btn-sm" href={wa('a website', 'Basic Rental package (PKR 25,000/month)')}>Start Basic Rental</a></div>
+        <div className="card"><h3>Top 10 Guarantee</h3><p style={{ fontSize: 26, fontWeight: 800, color: '#b3261e' }}>PKR 50,000 / month</p>
+          <ul><li>Everything in Basic Rental</li><li>Full Google promotion for your city and practice area</li><li>Top 10 Google ranking guarantee — booking deposit refunded if not reached in 1–2 months</li><li>For advocates who want regular clients</li></ul>
+          <a className="btn btn-sm" href={wa('a website', 'Top 10 Guarantee package (PKR 50,000/month)')}>Start Top 10 Package</a></div>
+      </div>
+    </section>
     <section className="wrap" id="list" style={{ padding: '0 16px 30px' }}>
       {Object.entries(legalSites).map(([group, list]) => <div key={group}>
         <h2>{group}</h2>
