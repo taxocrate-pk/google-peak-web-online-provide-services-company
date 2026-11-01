@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
         <Header />
+        <a href="/legal-websites-for-rent/" className="sidetab">Legal Websites for Rent</a>
         <main>{children}</main>
         <Footer />
       </body>

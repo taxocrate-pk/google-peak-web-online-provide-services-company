@@ -21,3 +21,7 @@ h1{font-size:36px;line-height:1.2;color:var(--navy);margin:0 0 14px}h2{font-size
 .ftr{background:var(--navy);color:#cfd8e8;padding:44px 0 18px;margin-top:20px}.ftr .logo{color:#fff}.ftr .logo img{width:36px;height:36px}.logo-mark{background:var(--gold);color:var(--navy)}.ftr-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:28px}.ftr h4{color:#fff;margin:0 0 10px}.ftr a{display:block;color:#cfd8e8;text-decoration:none;margin:4px 0;font-size:14.5px}.copy{font-size:13px;margin-top:26px;border-top:1px solid rgba(255,255,255,.15);padding-top:14px}
 @media(max-width:1100px){.nav{display:none}}@media(max-width:900px){.hero-grid,.content-grid{grid-template-columns:1fr}.nav{display:none}.cards{grid-template-columns:1fr}.ftr-grid{grid-template-columns:1fr 1fr}.side-box{position:static}h1{font-size:30px}}
 @media(max-width:560px){.ftr-grid{grid-template-columns:1fr}.hdr .btn-sm{font-size:12.5px;padding:7px 9px}h1{font-size:27px}h2{font-size:23px}}
+
+.sidetab{position:fixed;right:0;top:40%;z-index:60;writing-mode:vertical-rl;transform:rotate(180deg);background:#b3261e;color:#fff;font:700 14px/1 Arial,sans-serif;padding:14px 9px;border-radius:0 8px 8px 0;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.sidetab:hover{background:#8f1d17;color:#fff}
+@media(max-width:600px){.sidetab{font-size:12px;padding:10px 7px;top:35%}}
