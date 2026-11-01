@@ -14,7 +14,7 @@ export const legalSites = {
     ['qanoongroup.com', 'Qanoon Group — legal network brand for any Muslim-majority country', 'PKR 50 lakh'],
     ['taxocrate.com', 'Taxocrate — global tax brand, with Taxocrate (Pvt) Limited company registration', 'PKR 50 lakh'],
     ['court-marriage.com', 'Court marriage worldwide — India, South Africa, UK and more; aged domain with strong backlinks', 'PKR 25 lakh'], ['courtmarriage.world', 'Court marriage — worldwide name', 'PKR 5 lakh'],
-    ['courtmarriagelaw.com', 'Court marriage law — worldwide name', 'PKR 5 lakh'], ['marriage.international', 'International marriage', 'PKR 5 lakh'],
+    ['courtmarriagelaw.com', 'Court marriage law — worldwide name', 'PKR 5 lakh'], ['courtmarriage.services', 'Exact keyword: court marriage services — worldwide', 'PKR 10 lakh'], ['marriage.international', 'International marriage', 'PKR 5 lakh'],
     ['onlinenikah.co.uk', 'Online Nikah — UK', 'PKR 5 lakh'],
     ['nikahhouse.com', 'Nikah brand', 'PKR 5 lakh'],
     ['e-marriages.com', 'Online marriage services', 'PKR 5 lakh'],
