@@ -36,8 +36,8 @@ export default function Page() {
     <section className="wrap" id="list" style={{ padding: '0 16px 30px' }}>
       {Object.entries(legalSites).map(([group, list]) => <div key={group}>
         <h2>{group}</h2>
-        <div className="cards">{list.map(([d, note]) => <div className="card" key={d}>
-          <h3 style={{ wordBreak: 'break-all' }}>{d}</h3><p>{note}</p>
+        <div className="cards">{list.map(([d, note, price]) => <div className="card" key={d}>
+          <h3 style={{ wordBreak: 'break-all' }}>{d}</h3><p>{note}</p>{price && <p style={{ fontWeight: 700, color: '#b3261e', marginTop: 6 }}>Asking price: {price} (negotiable) — rent available</p>}
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 12 }}>
             <a className="btn btn-sm" href={wa(d, 'monthly rent')}>Rent</a>
             <a className="btn btn-sm btn-ghost" href={wa(d, 'partnership')}>Partnership</a>
