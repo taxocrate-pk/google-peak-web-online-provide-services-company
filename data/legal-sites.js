@@ -41,7 +41,7 @@ export const legalSites = {
     ['online-shadi.com', 'Online shadi'], ['onlineshadi.com', 'Online shadi'], ['onlinemarriagelawyers.com', 'Online marriage lawyers'], ],
   'Other good names — low prices': [
     ['pakistantours.com.pk', 'Pakistan tours — travel and tourism name', 'PKR 2 lakh'], ['visaoffice.co.uk', 'Visa and immigration — UK name', 'PKR 2 lakh'],
-    ['newmurree.com.pk', 'New Murree — now a district headquarters area', 'PKR 1 lakh'],
+    ['newmurree.com.pk', 'New Murree — now a district headquarters area', 'PKR 1 lakh'], ['eternalmonarch.com', 'Biographies and autobiographies of kings and great personalities', 'PKR 50,000'],
   ],
 }
 
