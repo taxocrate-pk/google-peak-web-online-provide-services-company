@@ -21,6 +21,7 @@ export default function Page() {
       <p dir="rtl" lang="ur" style={{ ...ur, fontSize: 24, color: 'var(--navy)', margin: '0 0 10px' }}>وکلاء کے لیے: قانون سے متعلق بہترین ناموں کی ویب سائٹس — گوگل پروموشن کے ساتھ</p>
       <p className="lead">{total} ready legal websites with strong names — city lawyer sites, national family, tax and court marriage domains. Take a site on monthly rent first; partnership or outright purchase is also possible. Your name, office address and WhatsApp go on the site, and every enquiry comes straight to you.</p>
       <div className="cta-row"><a className="btn" href={wa('a legal website', 'rent')}>WhatsApp 0333 2316871</a><a className="btn btn-ghost" href="#list">See the websites</a></div>
+      <p style={{ marginTop: 10 }}>Send your offer by email: <a href="mailto:digitocrate@gmail.com?subject=Offer%20for%20legal%20website"><strong>digitocrate@gmail.com</strong></a></p>
     </div></section>
 
     <section className="wrap" style={{ padding: '8px 16px 0' }}>
@@ -56,6 +57,7 @@ export default function Page() {
             <a className="btn btn-sm btn-ghost" href={wa(d, 'purchase')}>Buy</a>
           </div></div>)}</div>
       </div>)}
+    <p style={{ marginTop: 18 }}>Send your offer for any website by email: <a href="mailto:digitocrate@gmail.com?subject=Offer%20for%20legal%20website"><strong>digitocrate@gmail.com</strong></a> or WhatsApp 0333 2316871.</p>
     </section>
 
     <section className="wrap" style={{ padding: '0 16px 50px' }}>
