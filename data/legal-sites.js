@@ -4,7 +4,9 @@ export const legalSites = {
   'Premium legal names': [
     ['qanoonhouse.com', 'Qanoon House — franchise-ready legal brand', 'PKR 50 lakh'], ['qanoon.online', 'Qanoon — premium Urdu legal name', 'PKR 50 lakh'],
     ['advocates.com.pk', 'Advocates — Pakistan', 'PKR 50 lakh'], ['attorneys.com.pk', 'Attorneys — Pakistan', 'PKR 50 lakh'],
-    ['pak.legal', 'Ultra-short premium .legal name', 'PKR 25 lakh'], ['qanoongroup.com', 'Qanoon Group — network brand', 'PKR 25 lakh'],
+    ['pak.legal', 'Ultra-short premium .legal name', 'PKR 50 lakh'], ['qanoongroup.com', 'Qanoon Group — network brand', 'PKR 50 lakh'],
+    ['taxocrate.com', 'Taxocrate — with Taxocrate (Pvt) Limited company registration', 'PKR 50 lakh'], ['rightlaw.pk', 'RightLaw — with Right Law Associates (Pvt) Limited company registration', 'PKR 50 lakh'],
+    ['rightlaw.com.pk', 'RightLaw (.com.pk) — sold together with rightlaw.pk and the limited company', 'PKR 50 lakh'],
     ['courtmarriage.com.pk', 'Court marriage — top name', 'PKR 25 lakh'],
     ['court-marriage.com', 'Court marriage — .com', 'PKR 25 lakh'], ['karachilawyers.com.pk', 'Karachi lawyers', 'PKR 25 lakh'],
     ['islamabadlawyers.com.pk', 'Islamabad lawyers — new Next.js site', 'PKR 25 lakh'], ['legaladvisors.com.pk', 'Legal advisors — Pakistan', 'PKR 25 lakh'],
