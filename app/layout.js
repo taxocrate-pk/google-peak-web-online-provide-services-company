@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL(site.url),
   title: { default: 'Website Design and Development | Google Peak', template: '%s' },
   description: 'Google Peak designs and builds fast, SEO-ready websites made to reach Google’s top 3.',
-  icons: { icon: [{ url: '/favicon.ico', sizes: '48x48' }, { url: '/favicon.svg', type: 'image/svg+xml' }], apple: '/apple-touch-icon.png' },
+  icons: { icon: [{ url: '/favicon.ico', sizes: '48x48' }, { url: '/icon-192.png', sizes: '192x192', type: 'image/png' }], apple: '/apple-touch-icon.png' },
 };
 const org = {
   '@context': 'https://schema.org', '@type': 'ProfessionalService', name: site.name, url: site.url,
