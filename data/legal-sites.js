@@ -35,6 +35,7 @@ export const legalSites = {
     ['pakistantax.com.pk', 'Tax consultants — Pakistan'], ['pakistantax.pk', 'Tax consultants (.pk)'], ['salarytax.com.pk', 'Salary tax'],
   ],
   'Court marriage and Nikah websites': [
+    ['4marriages.com', 'Live site already getting Google clicks', 'PKR 10 lakh'], ['4marriages.net + .org + .online', 'Three live sites together', 'PKR 3 lakh'],
     ['courtmarriagepakistan.com', 'Court marriage — Pakistan'], ['courtmarriage.live', 'Court marriage'], ['courtmarriageinpakistan.com', 'Court marriage in Pakistan'], ['courtmarriagekarachi.com.pk', 'Court marriage — Karachi'], ['karachicourtmarriage.com', 'Karachi court marriage'],
     ['courtmarriagelawyers.pk', 'Court marriage lawyers'], ['courtmarriagelawyers.com.pk', 'Court marriage lawyers'], ['nadracertificate.com', 'NADRA certificates'],
     ['pakistanmarriage.com.pk', 'Marriage services'], ['nikahnama.online', 'Nikah Nama'],
